@@ -1,0 +1,1224 @@
+[
+  {
+    "id": "araku-valley",
+    "name": "Araku Valley",
+    "state": "Andhra Pradesh",
+    "district": "Alluri Sitharama Raju",
+    "latitude": 18.3273,
+    "longitude": 82.8775,
+    "tagline": "Misty Coffee Plantations & Eastern Ghats",
+    "description": "A tranquil hill valley nestled in the Eastern Ghats at 911 meters. Celebrated for Million-year-old Borra limestone caves, aromatic organic Arabica coffee estates, cascading waterfalls, and the scenic Vistadome mountain railway journey.",
+    "rating": 4.7,
+    "reviewCount": 2180,
+    "categories": ["Mountains", "Nature", "Couples", "Road Trips"],
+    "bestTime": {
+      "bestMonths": "October to February",
+      "weatherSummary": "Pleasant mornings with thick valley mist and cool sunny afternoons",
+      "peakSeason": "December – January (tribal festival & coffee blossom)",
+      "offSeason": "April – June (warm days)",
+      "expectedCrowd": "Moderate to Peaceful",
+      "temperatureRange": "12°C – 26°C",
+      "suggestedDuration": "3 Days / 2 Nights",
+      "monthlyBreakdown": [
+        {"month": "October", "avgTempCelsius": "22°C", "rainfall": "Post-monsoon greenery", "crowdLevel": "Moderate", "bestActivities": "Waterfalls & nature photography"},
+        {"month": "November", "avgTempCelsius": "18°C", "rainfall": "Dry & clear", "crowdLevel": "Moderate", "bestActivities": "Coffee plantation walks & camping"},
+        {"month": "December", "avgTempCelsius": "14°C", "rainfall": "Dry with morning frost", "crowdLevel": "Peak", "bestActivities": "Cave tours, bonfires & valley viewpoints"},
+        {"month": "January", "avgTempCelsius": "13°C", "rainfall": "Chilly & scenic", "crowdLevel": "Peak", "bestActivities": "Tribal Dhimsa dance & coffee tastings"}
+      ]
+    },
+    "attractions": [
+      {
+        "id": "borra-caves",
+        "name": "Borra Caves",
+        "category": "Natural Wonder",
+        "distanceKmFromCenter": 36.0,
+        "distanceToNextAttraction": "15 km to Katiki Falls",
+        "suggestedDurationHours": "2 Hours",
+        "description": "150-million-year-old limestone karst caves featuring spectacular stalactites and stalagmites illuminated by multi-colored eco-lights.",
+        "highlight": "Shivalingam formation & subterranean skylight",
+        "entryFee": "₹80 / Adult, ₹40 / Child",
+        "openingTime": "09:00 AM",
+        "closingTime": "05:00 PM",
+        "insiderTip": "Reach before 10:00 AM to beat tourist buses arriving from Vizag and enjoy peaceful cavern exploration.",
+        "photographyAdvice": "Use wide-angle lens with low ISO; colored lights create dramatic natural contrasts.",
+        "familySuitability": "Great for families, but requires climbing ~300 well-lit stone steps.",
+        "seniorAccessibility": "Moderate difficulty due to staircases; handrails available on primary pathways.",
+        "nearbySpots": ["Katiki Waterfalls", "Gosthani River Bed", "Ananthagiri Coffee Groves"]
+      },
+      {
+        "id": "katiki-waterfalls",
+        "name": "Katiki Waterfalls",
+        "category": "Waterfall",
+        "distanceKmFromCenter": 40.0,
+        "distanceToNextAttraction": "18 km to Coffee Museum",
+        "suggestedDurationHours": "2.5 Hours",
+        "description": "A 50-foot cascading waterfall hidden deep within the forested terrain, accessible via a rugged 4x4 open jeep ride followed by a scenic short jungle trek.",
+        "highlight": "Natural swimming pool and bamboo chicken cooked on hot embers",
+        "entryFee": "Free (Jeep ride ~₹300/person round-trip)",
+        "openingTime": "08:00 AM",
+        "closingTime": "04:30 PM",
+        "insiderTip": "Negotiate the local 4x4 jeep near Borra Caves junction. Wear water shoes or trekking sandals.",
+        "photographyAdvice": "Morning light filtering through bamboo foliage produces stunning long-exposure shots.",
+        "familySuitability": "Exciting bumpy jeep adventure; kids love the natural pool.",
+        "seniorAccessibility": "Challenging rocky trail; seniors can relax at base camp stalls.",
+        "nearbySpots": ["Borra Caves", "Gosthani Headwaters"]
+      },
+      {
+        "id": "coffee-museum",
+        "name": "Araku Tribal Coffee Museum",
+        "category": "Culture & Cafe",
+        "distanceKmFromCenter": 1.5,
+        "distanceToNextAttraction": "2 km to Tribal Museum",
+        "suggestedDurationHours": "1.5 Hours",
+        "description": "Celebrates the rich heritage of organic shade-grown tribal Arabica coffee with live roasting demonstrations, vintage grinding machines, and an artisan espresso bar.",
+        "highlight": "Freshly brewed artisan Araku Peaberry coffee and signature dark chocolate brownies",
+        "entryFee": "₹20 / Adult",
+        "openingTime": "09:00 AM",
+        "closingTime": "08:00 PM",
+        "insiderTip": "Sample the tribal honey and purchase vacuum-packed medium-roast beans directly from local cooperative counters.",
+        "photographyAdvice": "Rustic wooden decor and open-air garden seating offer warm, aesthetic lifestyle captures.",
+        "familySuitability": "Very family friendly with open seating, play spaces, and snacks.",
+        "seniorAccessibility": "Fully level ground, wheelchair friendly with ramp access.",
+        "nearbySpots": ["Araku Valley Tribal Museum", "Padmapuram Botanical Gardens"]
+      }
+    ],
+    "stays": [
+      {
+        "id": "haritha-resort",
+        "name": "APTDC Haritha Valley Resort",
+        "type": "Resort",
+        "pricePerNight": 2800,
+        "rating": 4.3,
+        "reviewsCount": 1120,
+        "distanceFromAttractions": "Central Araku",
+        "amenities": ["Multi-Cuisine Restaurant", "Lush Lawn Gardens", "Ample Parking", "Campfire"],
+        "highlights": "Government-operated eco resort amidst whispering silver oak trees",
+        "categoryType": "Mid-Range"
+      },
+      {
+        "id": "rahul-resorts",
+        "name": "Nature's Nest Eco Cottages",
+        "type": "Resort",
+        "pricePerNight": 4200,
+        "rating": 4.7,
+        "reviewsCount": 540,
+        "distanceFromAttractions": "3 km from Museum",
+        "amenities": ["Valley View Balconies", "Bonfire", "Organised Treks", "Free Breakfast"],
+        "highlights": "Boutique timber cottages offering panoramic Eastern Ghats ridge panoramas",
+        "categoryType": "Luxury"
+      }
+    ],
+    "foodGuide": {
+      "localSpecialties": [
+        {
+          "name": "Araku Bamboo Chicken (Bongu Kodi)",
+          "isVegetarian": false,
+          "description": "Marinated farm poultry seasoned with indigenous mountain spices, stuffed into fresh green bamboo stems and roasted over wood coals without oil.",
+          "popularAt": "Roadside bamboo stalls near Katiki & Borra junction",
+          "priceRange": "₹300 - ₹400 per portion",
+          "whereToTry": "Tribal kitchen kiosks along Chaparai road"
+        },
+        {
+          "name": "Artisan Araku Arabica Coffee",
+          "isVegetarian": true,
+          "description": "Single-origin, shade-grown Arabica coffee cultivated by indigenous tribes, noted for delicate caramel notes and citrus aroma.",
+          "popularAt": "Araku Coffee Museum Espresso Bar",
+          "priceRange": "₹80 - ₹150",
+          "whereToTry": "Araku Valley Coffee House"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Green Valley Restaurant",
+          "cuisine": "Andhra & North Indian",
+          "rating": 4.4,
+          "isVegFriendly": true,
+          "signatureDish": "Andhra Natu Kodi Pulao & Gongura Chutney",
+          "priceForTwo": "₹550",
+          "distance": "Near RTC Complex"
+        }
+      ]
+    },
+    "travelRoute": {
+      "originDistances": {
+        "Hyderabad": 660,
+        "Visakhapatnam": 114,
+        "Vijayawada": 450,
+        "Bengaluru": 980,
+        "Chennai": 910
+      },
+      "drivingTimes": {
+        "Hyderabad": "12h 15m",
+        "Visakhapatnam": "3h 15m",
+        "Vijayawada": "8h 30m",
+        "Bengaluru": "16h 00m"
+      },
+      "roadTripRoute": "From Hyderabad: NH65 to Vijayawada, NH16 to Vizag/Pendurthi, then scenic SH39 ghat road via Tyda and S.Kota.",
+      "tollAndParkingNotes": "FASTag tolls ~₹850 one way from Hyderabad; parking ₹30-₹50 at major tourist attractions.",
+      "nearestRailwayStation": "Araku Railway Station (ARK) / Vizag Jn (VSKP)",
+      "nearestAirport": "Visakhapatnam International Airport (VTZ) - 110 km",
+      "busTrainFlightOptions": "The Vistadome train (08551/52) from Vizag departs at 06:45 AM through mountain tunnels. Daily sleeper buses from Hyderabad to Vizag/Araku.",
+      "fuelEstimateCar": {
+        "Hyderabad": 8800,
+        "Visakhapatnam": 1600,
+        "Vijayawada": 6200
+      },
+      "tollEstimate": {
+        "Hyderabad": 1700,
+        "Visakhapatnam": 180,
+        "Vijayawada": 900
+      },
+      "roadCondition": "Excellent 4-lane NH16 till Pendurthi, followed by smooth, well-banked ghat road with panoramic viewpoints."
+    },
+    "budget": {
+      "stayEstimatePerNight": 2800,
+      "foodEstimatePerDay": 1000,
+      "activitiesTotal": 1400,
+      "travelEstimate": 6500,
+      "totalEstimateMin": 12000,
+      "totalEstimateMax": 24000,
+      "tiers": [
+        {"tierName": "Budget", "soloCost": 7500, "coupleCost": 12500, "familyCost": 17000, "friendsCost": 16000},
+        {"tierName": "Mid-Range", "soloCost": 11500, "coupleCost": 18500, "familyCost": 26000, "friendsCost": 24000},
+        {"tierName": "Luxury", "soloCost": 18000, "coupleCost": 28000, "familyCost": 39000, "friendsCost": 36000}
+      ]
+    },
+    "timedScheduleTemplate": [
+      {"timeOfDay": "08:00 AM", "title": "Breakfast & Coffee", "placeOrActivity": "Savor piping hot idlis and freshly filtered Araku coffee", "duration": "45 mins"},
+      {"timeOfDay": "09:30 AM", "title": "Limestone Exploration", "placeOrActivity": "Borra Caves subterranean caverns", "duration": "2.5 hours", "tip": "Beat the noon queue by arriving early"},
+      {"timeOfDay": "01:00 PM", "title": "Bamboo Lunch", "placeOrActivity": "Authentic bamboo chicken and herb rice by Gosthani river", "duration": "1 hour"},
+      {"timeOfDay": "02:30 PM", "title": "Waterfall Excursion", "placeOrActivity": "Katiki Falls 4x4 jeep safari and pool dip", "duration": "2.5 hours"},
+      {"timeOfDay": "06:00 PM", "title": "Sunset Viewpoint", "placeOrActivity": "Galikonda View Point - highest ridge in Eastern Ghats", "duration": "1 hour"},
+      {"timeOfDay": "08:00 PM", "title": "Campfire & Dinner", "placeOrActivity": "Relaxing dinner with tribal music at resort", "duration": "2 hours"}
+    ]
+  },
+  {
+    "id": "vizag-coastal",
+    "name": "Visakhapatnam (Vizag)",
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "latitude": 17.6868,
+    "longitude": 83.2185,
+    "tagline": "The City of Destiny • Golden Shores & Naval Pride",
+    "description": "A vibrant coastal metropolis where the Eastern Ghats meet the Bay of Bengal. Home to the legendary INS Kursura submarine museum, Rushikonda beach water sports, Buddhist heritage at Thotlakonda, and scenic coastal road drives.",
+    "rating": 4.6,
+    "reviewCount": 3100,
+    "categories": ["Beaches", "Heritage", "Family", "Road Trips"],
+    "bestTime": {
+      "bestMonths": "October to March",
+      "weatherSummary": "Comfortable coastal breeze with mild sunny days and cool evenings",
+      "peakSeason": "November – February",
+      "offSeason": "May – July (coastal humidity)",
+      "expectedCrowd": "Active & Lively",
+      "temperatureRange": "20°C – 30°C",
+      "suggestedDuration": "3 Days / 2 Nights",
+      "monthlyBreakdown": [
+        {"month": "November", "avgTempCelsius": "25°C", "rainfall": "Dry & pleasant", "crowdLevel": "Moderate", "bestActivities": "Submarine museum & beach sunset promenade"},
+        {"month": "December", "avgTempCelsius": "22°C", "rainfall": "Clear skies", "crowdLevel": "Peak", "bestActivities": "Rushikonda surfing, speedboats & Kailasagiri ropeway"},
+        {"month": "January", "avgTempCelsius": "21°C", "rainfall": "Crisp maritime breeze", "crowdLevel": "Peak", "bestActivities": "Bheemili scenic marine drive"}
+      ]
+    },
+    "attractions": [
+      {
+        "id": "ins-kursura",
+        "name": "INS Kursura Submarine Museum",
+        "category": "Naval Museum",
+        "distanceKmFromCenter": 2.0,
+        "distanceToNextAttraction": "1 km to TU-142 Aircraft Museum",
+        "suggestedDurationHours": "1.5 Hours",
+        "description": "A decommissioned Soviet-built Kalvari-class submarine preserved on RK Beach sands. Walk through narrow ballast tanks, sonar bays, and torpedo rooms guided by retired naval personnel.",
+        "highlight": "Original periscope view and torpedo storage bay",
+        "entryFee": "₹70 / Adult, ₹40 / Child",
+        "openingTime": "02:00 PM (10:00 AM on Sundays)",
+        "closingTime": "08:30 PM (Closed Mondays)",
+        "insiderTip": "Combine with the TU-142 Aircraft Museum across the road with a combo ticket to save time.",
+        "photographyAdvice": "Exterior illuminated photography after 6:30 PM against crashing waves is iconic.",
+        "familySuitability": "Highly educational and thrilling for children and teenagers.",
+        "seniorAccessibility": "Tight watertight doors with narrow round crawlways require ducking.",
+        "nearbySpots": ["TU-142 Aircraft Museum", "War Memorial", "RK Beach Promenade"]
+      },
+      {
+        "id": "rushikonda-beach",
+        "name": "Rushikonda Beach & Marine Drive",
+        "category": "Beach & Watersports",
+        "distanceKmFromCenter": 12.0,
+        "distanceToNextAttraction": "6 km to Thotlakonda",
+        "suggestedDurationHours": "3 Hours",
+        "description": "Blue Flag certified beach nestled between green hillocks, celebrated for safe swimming, sea kayaking, jet skiing, speed boating, and pristine golden sand.",
+        "highlight": "Jet-skiing and freshly fried spicy fish fillets at coastal stalls",
+        "entryFee": "Free",
+        "openingTime": "06:00 AM",
+        "closingTime": "07:30 PM",
+        "insiderTip": "Visit around 4:00 PM when water sports are active and the sunset casts gold over the waves.",
+        "photographyAdvice": "Capture hill curves meeting the ocean from the cliffside resort view deck.",
+        "familySuitability": "Very safe with professional lifeguards on patrol.",
+        "seniorAccessibility": "Paved promenade with seating overlooking the shore.",
+        "nearbySpots": ["Thotlakonda Buddhist Complex", "Bheemili Dutch Cemetery"]
+      }
+    ],
+    "stays": [
+      {
+        "id": "haritha-rushikonda",
+        "name": "Haritha Beach Resort Rushikonda",
+        "type": "Resort",
+        "pricePerNight": 3200,
+        "rating": 4.4,
+        "reviewsCount": 890,
+        "distanceFromAttractions": "Right on Rushikonda Beach",
+        "amenities": ["Sea-Facing Balconies", "Seafood Restaurant", "Beach Access", "Bar"],
+        "highlights": "Perched on a green cliff directly overlooking the sparkling Bay of Bengal",
+        "categoryType": "Mid-Range"
+      },
+      {
+        "id": "novotel-vizag",
+        "name": "Novotel Visakhapatnam Varun Beach",
+        "type": "Hotel",
+        "pricePerNight": 6800,
+        "rating": 4.7,
+        "reviewsCount": 2400,
+        "distanceFromAttractions": "RK Beach front",
+        "amenities": ["Infinity Pool", "Ocean View Dining", "Spa", "Fitness Center"],
+        "highlights": "Luxury beach-front experience with 180-degree ocean views",
+        "categoryType": "Luxury"
+      }
+    ],
+    "foodGuide": {
+      "localSpecialties": [
+        {
+          "name": "Vizag Royyala Vepudu (Prawn Fry)",
+          "isVegetarian": false,
+          "description": "Succulent coastal tiger prawns tossed in freshly roasted coriander, red chilies, curry leaves, and coastal spices.",
+          "popularAt": "Sea Inn (Raju Gari Dhaba) & beachfront dhabas",
+          "priceRange": "₹350 - ₹480",
+          "whereToTry": "Raju Gari Dhaba on Rushikonda-Bheemili coastal road"
+        },
+        {
+          "name": "Madugula Halwa",
+          "isVegetarian": true,
+          "description": "Centuries-old wheat milk fudge simmered in pure ghee and topped with crunchy cashew nuts, originating from nearby Madugula village.",
+          "popularAt": "Local heritage sweet marts across Jagadamba junction",
+          "priceRange": "₹180 / 250g",
+          "whereToTry": "Old Town Heritage sweet shops"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Sea Inn (Raju Gari Dhaba)",
+          "cuisine": "Authentic Coastal Andhra",
+          "rating": 4.6,
+          "isVegFriendly": true,
+          "signatureDish": "Crab Curry & Prawn Pulao",
+          "priceForTwo": "₹800",
+          "distance": "Bheemili Beach Road"
+        }
+      ]
+    },
+    "travelRoute": {
+      "originDistances": {
+        "Hyderabad": 615,
+        "Vijayawada": 350,
+        "Bengaluru": 990,
+        "Chennai": 790,
+        "Visakhapatnam": 0
+      },
+      "drivingTimes": {
+        "Hyderabad": "11h 00m",
+        "Vijayawada": "6h 15m",
+        "Bengaluru": "16h 30m"
+      },
+      "roadTripRoute": "NH65 from Hyderabad to Vijayawada, then 6-lane NH16 expressway straight to Visakhapatnam.",
+      "tollAndParkingNotes": "Fastag toll ~₹750 each way from Vijayawada/Hyderabad; beachfront paid parking ₹30.",
+      "nearestRailwayStation": "Visakhapatnam Junction (VSKP) - Major Railway Hub",
+      "nearestAirport": "Visakhapatnam International Airport (VTZ) - in-city",
+      "busTrainFlightOptions": "Direct flights from Hyderabad, Bengaluru, Delhi, and Chennai. Multiple daily Vande Bharat and superfast trains.",
+      "fuelEstimateCar": {
+        "Hyderabad": 8200,
+        "Vijayawada": 4800,
+        "Bengaluru": 13000
+      },
+      "tollEstimate": {
+        "Hyderabad": 1600,
+        "Vijayawada": 850
+      },
+      "roadCondition": "Superb 4-to-6 lane highway throughout with modern highway rest stops."
+    },
+    "budget": {
+      "stayEstimatePerNight": 3200,
+      "foodEstimatePerDay": 1200,
+      "activitiesTotal": 1200,
+      "travelEstimate": 6000,
+      "totalEstimateMin": 11000,
+      "totalEstimateMax": 25000,
+      "tiers": [
+        {"tierName": "Budget", "soloCost": 7000, "coupleCost": 12000, "familyCost": 16500, "friendsCost": 15000},
+        {"tierName": "Mid-Range", "soloCost": 11000, "coupleCost": 18000, "familyCost": 25000, "friendsCost": 22000},
+        {"tierName": "Luxury", "soloCost": 19000, "coupleCost": 31000, "familyCost": 42000, "friendsCost": 38000}
+      ]
+    },
+    "timedScheduleTemplate": [
+      {"timeOfDay": "08:30 AM", "title": "Breakfast & Stroll", "placeOrActivity": "South Indian tiffin along RK Beach road", "duration": "1 hour"},
+      {"timeOfDay": "10:00 AM", "title": "Naval History", "placeOrActivity": "INS Kursura Submarine & TU-142 Aircraft museums", "duration": "2.5 hours"},
+      {"timeOfDay": "01:00 PM", "title": "Coastal Seafood Lunch", "placeOrActivity": "Fresh catch spicy prawn fry & meals at beach dhaba", "duration": "1.5 hours"},
+      {"timeOfDay": "03:30 PM", "title": "Water Adventures", "placeOrActivity": "Rushikonda Beach jet-skiing and coastal waves", "duration": "2.5 hours"},
+      {"timeOfDay": "06:30 PM", "title": "Kailasagiri Sunset", "placeOrActivity": "Ropeway ride to hilltop park overlooking coastline", "duration": "1.5 hours"}
+    ]
+  },
+  {
+    "id": "lambasingi",
+    "name": "Lambasingi",
+    "state": "Andhra Pradesh",
+    "district": "Alluri Sitharama Raju",
+    "latitude": 17.8227,
+    "longitude": 82.5292,
+    "tagline": "The Kashmir of Andhra Pradesh • Winter Frost & Apple Orchards",
+    "description": "Perched 1,000 meters above sea level in the Chintapalli forests, Lambasingi is renowned as South India's only destination where winter temperatures drop close to 0°C. Characterized by morning frost, sprawling apple and strawberry farms, cloud-kissed pine groves, and secluded waterfalls.",
+    "rating": 4.5,
+    "reviewCount": 1420,
+    "categories": ["Mountains", "Nature", "Couples", "Road Trips"],
+    "bestTime": {
+      "bestMonths": "November to January",
+      "weatherSummary": "Bone-chilling misty mornings often near 0°C - 3°C with dreamy cloud beds",
+      "peakSeason": "December – January (frost & strawberry picking)",
+      "offSeason": "April – June",
+      "expectedCrowd": "High on winter weekends",
+      "temperatureRange": "2°C – 22°C",
+      "suggestedDuration": "2 Days / 1 Night",
+      "monthlyBreakdown": [
+        {"month": "November", "avgTempCelsius": "14°C", "rainfall": "Dry & misty", "crowdLevel": "Moderate", "bestActivities": "Apple garden tours & night camping"},
+        {"month": "December", "avgTempCelsius": "6°C", "rainfall": "Sub-zero dips possible", "crowdLevel": "Peak", "bestActivities": "Sunrise cloud-bed watching & bonfires"},
+        {"month": "January", "avgTempCelsius": "4°C", "rainfall": "Very cold & frosty", "crowdLevel": "Peak", "bestActivities": "Strawberry harvest & mist photography"}
+      ]
+    },
+    "attractions": [
+      {
+        "id": "lambasingi-viewpoint",
+        "name": "Lambasingi Sunrise View Point",
+        "category": "Scenic View",
+        "distanceKmFromCenter": 2.5,
+        "distanceToNextAttraction": "6 km to Thajangi Reservoir",
+        "suggestedDurationHours": "2 Hours",
+        "description": "A panoramic mountain viewpoint where travelers gather before daybreak to watch the golden sun rise through a sea of floating white clouds and dense forest mist.",
+        "highlight": "Sea of clouds (Cloud Bed) at 06:00 AM",
+        "entryFee": "Free",
+        "openingTime": "05:00 AM",
+        "closingTime": "09:00 AM",
+        "insiderTip": "Arrive strictly by 05:45 AM. Wear heavy woolens, gloves, and caps as the wind chill is intense.",
+        "photographyAdvice": "Golden hour time-lapse of mist moving across the valley creates magical reels.",
+        "familySuitability": "Accessible road; warm tea & maggi stalls available for families.",
+        "seniorAccessibility": "Gentle sloping walk from vehicle drop-off point.",
+        "nearbySpots": ["Thajangi Reservoir", "Kothapalli Waterfalls"]
+      },
+      {
+        "id": "thajangi-reservoir",
+        "name": "Thajangi Reservoir & Adventure Hub",
+        "category": "Lake & Adventure",
+        "distanceKmFromCenter": 6.0,
+        "distanceToNextAttraction": "22 km to Kothapalli Falls",
+        "suggestedDurationHours": "2 Hours",
+        "description": "A tranquil emerald lake framed by rolling blue hills, offering zipline adventures over water, zorbing, and boating in fresh mountain air.",
+        "highlight": "Zipline over the pristine lake and archery games",
+        "entryFee": "Entry Free; Zipline ~₹250",
+        "openingTime": "08:30 AM",
+        "closingTime": "05:30 PM",
+        "insiderTip": "Ideal afternoon stop when the sun warms up the waters.",
+        "photographyAdvice": "Mirror reflections of hills in the calm water at midday.",
+        "familySuitability": "Great outdoor fun for kids and young adults.",
+        "seniorAccessibility": "Level pathways with comfortable lakeside benches.",
+        "nearbySpots": ["Pine Forests", "Strawberry Gardens"]
+      }
+    ],
+    "stays": [
+      {
+        "id": "haritha-lambasingi",
+        "name": "APTDC Haritha Hill Resort Lambasingi",
+        "type": "Resort",
+        "pricePerNight": 2500,
+        "rating": 4.2,
+        "reviewsCount": 650,
+        "distanceFromAttractions": "Center of Lambasingi",
+        "amenities": ["Heated Blankets", "Lawn Campfire", "Restaurant", "Parking"],
+        "highlights": "Wooden Swiss cottages equipped for freezing winter nights",
+        "categoryType": "Mid-Range"
+      },
+      {
+        "id": "cloud-camps",
+        "name": "Valley View Luxury Tented Camps",
+        "type": "Resort",
+        "pricePerNight": 3400,
+        "rating": 4.6,
+        "reviewsCount": 380,
+        "distanceFromAttractions": "Near Sunrise Point",
+        "amenities": ["All-Weather Tents", "Barbecue & Bonfire", "Stargazing", "Meals Included"],
+        "highlights": "Authentic camping with star-lit sky and morning mist inside tent flaps",
+        "categoryType": "Luxury"
+      }
+    ],
+    "foodGuide": {
+      "localSpecialties": [
+        {
+          "name": "Fresh Organic Strawberries",
+          "isVegetarian": true,
+          "description": "Sweet, vibrant red mountain strawberries freshly plucked from local agro-farms.",
+          "popularAt": "Farm roadside stalls near Thajangi",
+          "priceRange": "₹100 - ₹150 per box",
+          "whereToTry": "Lambasingi Strawberry Farms"
+        },
+        {
+          "name": "Bongu Kodi & Hot Pepper Rasam",
+          "isVegetarian": false,
+          "description": "Tender chicken cooked inside bamboo stem accompanied by piping hot black pepper and garlic rasam to warm chilly bones.",
+          "popularAt": "Village huts and campfire dining",
+          "priceRange": "₹300 / portion",
+          "whereToTry": "Tribal Dhaba at Chintapalli junction"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Prakruti Hill View Meals",
+          "cuisine": "Andhra Homestyle",
+          "rating": 4.3,
+          "isVegFriendly": true,
+          "signatureDish": "Hot Rice with Ulavacharu & Ghee",
+          "priceForTwo": "₹400",
+          "distance": "Main Road"
+        }
+      ]
+    },
+    "travelRoute": {
+      "originDistances": {
+        "Hyderabad": 590,
+        "Visakhapatnam": 102,
+        "Vijayawada": 375,
+        "Bengaluru": 930
+      },
+      "drivingTimes": {
+        "Hyderabad": "11h 30m",
+        "Visakhapatnam": "2h 45m",
+        "Vijayawada": "7h 15m"
+      },
+      "roadTripRoute": "NH16 to Narsipatnam junction via Tuni, then scenic ghat road via Narsipatnam into Lambasingi forest.",
+      "tollAndParkingNotes": "Tolls on NH16 ~₹500; free parking at resorts and viewpoint shoulders.",
+      "nearestRailwayStation": "Narsipatnam Road (NRP) - 35 km; Anakapalle (AKP) - 75 km",
+      "nearestAirport": "Visakhapatnam Airport (VTZ) - 100 km",
+      "busTrainFlightOptions": "Frequent buses from Vizag and Narsipatnam. Best experienced as a self-drive road trip.",
+      "fuelEstimateCar": {
+        "Hyderabad": 7900,
+        "Visakhapatnam": 1400,
+        "Vijayawada": 5000
+      },
+      "tollEstimate": {
+        "Hyderabad": 1500,
+        "Vijayawada": 750
+      },
+      "roadCondition": "Good highway till Narsipatnam, followed by thrilling winding forest ghat road with occasional blind curves."
+    },
+    "budget": {
+      "stayEstimatePerNight": 2500,
+      "foodEstimatePerDay": 900,
+      "activitiesTotal": 800,
+      "travelEstimate": 5500,
+      "totalEstimateMin": 9500,
+      "totalEstimateMax": 18000,
+      "tiers": [
+        {"tierName": "Budget", "soloCost": 6000, "coupleCost": 10500, "familyCost": 14500, "friendsCost": 13500},
+        {"tierName": "Mid-Range", "soloCost": 9500, "coupleCost": 15500, "familyCost": 22000, "friendsCost": 20000},
+        {"tierName": "Luxury", "soloCost": 15000, "coupleCost": 24000, "familyCost": 34000, "friendsCost": 30000}
+      ]
+    },
+    "timedScheduleTemplate": [
+      {"timeOfDay": "05:30 AM", "title": "Sunrise Cloud-Bed", "placeOrActivity": "Watch early dawn mist at Sunrise Viewpoint", "duration": "2 hours", "tip": "Dress in heavy thermal woolens"},
+      {"timeOfDay": "08:00 AM", "title": "Breakfast & Hot Chai", "placeOrActivity": "Steaming hot ginger tea & village tiffins", "duration": "45 mins"},
+      {"timeOfDay": "09:30 AM", "title": "Strawberry Harvest", "placeOrActivity": "Pick fresh berries at local agro farms", "duration": "1.5 hours"},
+      {"timeOfDay": "11:30 AM", "title": "Lakeside Zipline", "placeOrActivity": "Thajangi Reservoir adventure activities", "duration": "2 hours"},
+      {"timeOfDay": "02:00 PM", "title": "Forest Lunch", "placeOrActivity": "Spicy bamboo chicken & native country dishes", "duration": "1 hour"},
+      {"timeOfDay": "03:30 PM", "title": "Jungle Waterfall", "placeOrActivity": "Trek to Kothapalli Waterfalls", "duration": "2.5 hours"},
+      {"timeOfDay": "07:30 PM", "title": "Campfire & Stargazing", "placeOrActivity": "Campfire under crystal-clear night sky", "duration": "3 hours"}
+    ]
+  },
+  {
+    "id": "ananthagiri-hills",
+    "name": "Ananthagiri Hills",
+    "state": "Telangana",
+    "district": "Vikarabad",
+    "latitude": 17.3106,
+    "longitude": 77.8631,
+    "tagline": "Hyderabad's Nearest Hill Retreat • Dense Woods & Coffee Aroma",
+    "description": "Located just 80 km from Hyderabad in Vikarabad district, Ananthagiri Hills is the birth place of the Musi River. Dense deciduous forest trails, the ancient Sri Anantha Padmanabha Swamy temple, secret camping ridges, and refreshing coffee plantations make it the premier weekend sanctuary for city dwellers.",
+    "rating": 4.5,
+    "reviewCount": 2400,
+    "categories": ["Nature", "Mountains", "Adventure", "Road Trips", "Couples"],
+    "bestTime": {
+      "bestMonths": "July to February",
+      "weatherSummary": "Lush green during monsoons, breezy and cool in winter",
+      "peakSeason": "August – November (monsoon waterfalls & lush valleys)",
+      "offSeason": "March – May (warm summer)",
+      "expectedCrowd": "High on Saturdays & Sundays",
+      "temperatureRange": "16°C – 28°C",
+      "suggestedDuration": "2 Days / 1 Night (or 1-Day Road Trip)",
+      "monthlyBreakdown": [
+        {"month": "August", "avgTempCelsius": "24°C", "rainfall": "Lush monsoon showers", "crowdLevel": "Peak", "bestActivities": "Jungle trekking & mist walks"},
+        {"month": "October", "avgTempCelsius": "22°C", "rainfall": "Post-monsoon freshness", "crowdLevel": "Moderate", "bestActivities": "Kayaking at Kotepally reservoir"},
+        {"month": "December", "avgTempCelsius": "16°C", "rainfall": "Chilly & dry", "crowdLevel": "Peak", "bestActivities": "Overnight camping & stargazing"}
+      ]
+    },
+    "attractions": [
+      {
+        "id": "padmanabha-temple",
+        "name": "Sri Anantha Padmanabha Swamy Temple",
+        "category": "Heritage & Temple",
+        "distanceKmFromCenter": 1.0,
+        "distanceToNextAttraction": "3 km to Viewpoint",
+        "suggestedDurationHours": "1 Hour",
+        "description": "Ancient 400-year-old temple built by Nizam kings for the Hindu community amidst thick forest groves, dedicated to Lord Vishnu.",
+        "highlight": "Sacred stepped spring and historic forest banyan trees",
+        "entryFee": "Free (Special Darshan ₹50)",
+        "openingTime": "06:00 AM",
+        "closingTime": "07:30 PM",
+        "insiderTip": "Early morning darshan at 7:00 AM allows peaceful prayers before weekend crowds arrive from Hyderabad.",
+        "photographyAdvice": "Gopuram framed by forest trees in the morning mist.",
+        "familySuitability": "Very family friendly with smooth courtyards.",
+        "seniorAccessibility": "Wheelchair ramp available near northern gate.",
+        "nearbySpots": ["Vikarabad Forest Trail", "Nagasamudram Lake"]
+      },
+      {
+        "id": "kotepally-reservoir",
+        "name": "Kotepally Reservoir & Kayaking",
+        "category": "Water & Adventure",
+        "distanceKmFromCenter": 18.0,
+        "distanceToNextAttraction": "15 km to Hills Peak",
+        "suggestedDurationHours": "2.5 Hours",
+        "description": "Scenic freshwater lake surrounded by scrub hills where visitors can rent tandem kayaks, ride pedal boats, and enjoy roasted corn by the shore.",
+        "highlight": "Tandem sea kayaking and lakeside breeze",
+        "entryFee": "Kayaking ~₹200 for 30 mins",
+        "openingTime": "09:00 AM",
+        "closingTime": "06:00 PM",
+        "insiderTip": "Take a 30-minute kayak into the quiet eastern cove away from the boat launch.",
+        "photographyAdvice": "Sunset reflection with orange skies over calm ripples.",
+        "familySuitability": "Life jackets provided; safe and fun for children above 6.",
+        "seniorAccessibility": "Lakeside shaded shacks available to relax.",
+        "nearbySpots": ["Grasslands Camp", "Buggabai Waterfall"]
+      }
+    ],
+    "stays": [
+      {
+        "id": "haritha-ananthagiri",
+        "name": "TG Tourism Haritha Hill Resort",
+        "type": "Resort",
+        "pricePerNight": 2200,
+        "rating": 4.1,
+        "reviewsCount": 890,
+        "distanceFromAttractions": "Beside Forest Trail",
+        "amenities": ["Forest View Rooms", "Restaurant", "Garden Lawn", "Conference Hall"],
+        "highlights": "Centrally located right opposite the forest trekking trails",
+        "categoryType": "Mid-Range"
+      },
+      {
+        "id": "the-wilderness",
+        "name": "The Hills Forest Villa & Eco Resort",
+        "type": "Resort",
+        "pricePerNight": 4500,
+        "rating": 4.6,
+        "reviewsCount": 310,
+        "distanceFromAttractions": "4 km from Temple",
+        "amenities": ["Infinity Pool", "Private Bonfire", "Nature Walks", "Gourmet Meals"],
+        "highlights": "Peaceful luxury retreat surrounded by private organic plantations",
+        "categoryType": "Luxury"
+      }
+    ],
+    "foodGuide": {
+      "localSpecialties": [
+        {
+          "name": "Telangana Pachi Pulusu & Jowar Roti",
+          "isVegetarian": true,
+          "description": "Raw tamarind soup tempered with charred green chilies, onions and cumin, served with rustic handmade sorghum flatbreads.",
+          "popularAt": "Highway dhabas between Chevella & Vikarabad",
+          "priceRange": "₹120 - ₹200",
+          "whereToTry": "Highway Family Dhaba near Chevella"
+        },
+        {
+          "name": "Vikarabad Country Chicken (Natukodi)",
+          "isVegetarian": false,
+          "description": "Fiery country chicken slow-simmered in home-ground Telangana garam masala and poppy seed gravy.",
+          "popularAt": "Local forest dhabas",
+          "priceRange": "₹320 - ₹450",
+          "whereToTry": "Ananthagiri Forest Dhabas"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Haritha Hilltop Dining",
+          "cuisine": "Telangana & South Indian",
+          "rating": 4.2,
+          "isVegFriendly": true,
+          "signatureDish": "Bagara Rice with Chicken Curry",
+          "priceForTwo": "₹500",
+          "distance": "Near Forest Gate"
+        }
+      ]
+    },
+    "travelRoute": {
+      "originDistances": {
+        "Hyderabad": 82,
+        "Bengaluru": 560,
+        "Vijayawada": 350,
+        "Pune": 510
+      },
+      "drivingTimes": {
+        "Hyderabad": "1h 50m",
+        "Bengaluru": "9h 30m"
+      },
+      "roadTripRoute": "Mehdipatnam -> Appa Junction -> Chevella -> Manneguda -> Vikarabad -> Ananthagiri Hills.",
+      "tollAndParkingNotes": "No highway tolls on Chevella route! Free parking throughout.",
+      "nearestRailwayStation": "Vikarabad Junction (VKB) - 6 km (frequent local trains from Secunderabad)",
+      "nearestAirport": "Rajiv Gandhi International Airport (HYD) - 75 km",
+      "busTrainFlightOptions": "Hourly TSRTC express buses from Hyderabad MGBS / Jubilee Bus Station directly to Vikarabad.",
+      "fuelEstimateCar": {
+        "Hyderabad": 1200,
+        "Bengaluru": 7500
+      },
+      "tollEstimate": {
+        "Hyderabad": 0,
+        "Bengaluru": 900
+      },
+      "roadCondition": "Smooth 2-lane tree-lined road through Chevella, very scenic countryside drive."
+    },
+    "budget": {
+      "stayEstimatePerNight": 2200,
+      "foodEstimatePerDay": 800,
+      "activitiesTotal": 600,
+      "travelEstimate": 1500,
+      "totalEstimateMin": 4500,
+      "totalEstimateMax": 10000,
+      "tiers": [
+        {"tierName": "Budget", "soloCost": 2800, "coupleCost": 5200, "familyCost": 7500, "friendsCost": 6800},
+        {"tierName": "Mid-Range", "soloCost": 4500, "coupleCost": 8500, "familyCost": 12000, "friendsCost": 11000},
+        {"tierName": "Luxury", "soloCost": 7500, "coupleCost": 14000, "familyCost": 19000, "friendsCost": 17000}
+      ]
+    },
+    "timedScheduleTemplate": [
+      {"timeOfDay": "07:00 AM", "title": "Scenic Road Trip", "placeOrActivity": "Depart Hyderabad via Chevella countryside route", "duration": "2 hours"},
+      {"timeOfDay": "09:00 AM", "title": "Temple & Springs", "placeOrActivity": "Visit Sri Anantha Padmanabha Swamy Temple", "duration": "1 hour"},
+      {"timeOfDay": "10:30 AM", "title": "Forest Hike", "placeOrActivity": "Guided walk along Vikarabad green canopy trail", "duration": "2 hours"},
+      {"timeOfDay": "01:00 PM", "title": "Local Telangana Lunch", "placeOrActivity": "Bagara rice and Natukodi curry at hilltop restaurant", "duration": "1.5 hours"},
+      {"timeOfDay": "03:30 PM", "title": "Kayaking & Breeze", "placeOrActivity": "Kotepally Reservoir kayaking and roasted corn", "duration": "2.5 hours"},
+      {"timeOfDay": "06:30 PM", "title": "Sunset & Return", "placeOrActivity": "Watch sunset from ridge and drive back to Hyderabad", "duration": "2 hours"}
+    ]
+  },
+  {
+    "id": "coorg-karnataka",
+    "name": "Coorg (Madikeri)",
+    "state": "Karnataka",
+    "district": "Kodagu",
+    "latitude": 12.4244,
+    "longitude": 75.7382,
+    "tagline": "The Scotland of India • Coffee Aromas & Western Ghats",
+    "description": "Perched on the eastern slopes of the Western Ghats at 1,170 meters. Renowned for endless Arabica and Robusta coffee estates, fragrant cardamom and pepper vines, roaring waterfalls like Abbey Falls, rich Kodava martial culture, and the golden Tibetan monastery of Bylakuppe.",
+    "rating": 4.8,
+    "reviewCount": 3800,
+    "categories": ["Mountains", "Nature", "Couples", "Road Trips", "Family"],
+    "bestTime": {
+      "bestMonths": "October to March",
+      "weatherSummary": "Pleasant and misty with cool mountain breezes; crisp nights",
+      "peakSeason": "December – January",
+      "offSeason": "June – August (heavy southwest monsoon)",
+      "expectedCrowd": "Moderate to Lively",
+      "temperatureRange": "14°C – 26°C",
+      "suggestedDuration": "3 Days / 2 Nights",
+      "monthlyBreakdown": [
+        {"month": "October", "avgTempCelsius": "22°C", "rainfall": "Gushing waterfalls", "crowdLevel": "Moderate", "bestActivities": "Plantation walks & waterfall visits"},
+        {"month": "November", "avgTempCelsius": "19°C", "rainfall": "Dry & refreshing", "crowdLevel": "Moderate", "bestActivities": "Coffee bean plucking & Tibetan monastery"},
+        {"month": "December", "avgTempCelsius": "15°C", "rainfall": "Chilly mornings", "crowdLevel": "Peak", "bestActivities": "Raja's Seat sunset & campfire homestays"}
+      ]
+    },
+    "attractions": [
+      {
+        "id": "abbey-falls",
+        "name": "Abbey Falls",
+        "category": "Waterfall",
+        "distanceKmFromCenter": 8.0,
+        "distanceToNextAttraction": "9 km to Raja's Seat",
+        "suggestedDurationHours": "1.5 Hours",
+        "description": "A dramatic waterfall nestled inside private coffee and spice plantations, where multiple cascades plunge 70 feet into a boulder-strewn canyon spanned by a hanging bridge.",
+        "highlight": "Hanging suspension bridge viewpoint",
+        "entryFee": "₹15 / person",
+        "openingTime": "09:00 AM",
+        "closingTime": "05:00 PM",
+        "insiderTip": "Walk through the coffee and spice trees along the paved steps; early morning visits have softer lighting and less crowds.",
+        "photographyAdvice": "Capture wide angles from the center of the suspension bridge with mist sprays.",
+        "familySuitability": "Paved pathway with railings; approximately 150 gentle steps down.",
+        "seniorAccessibility": "Moderate incline returning to parking lot; benches available.",
+        "nearbySpots": ["Mandalpatti Peak", "Madikeri Fort"]
+      },
+      {
+        "id": "bylakuppe-monastery",
+        "name": "Namdroling Tibetan Monastery (Golden Temple)",
+        "category": "Culture & Heritage",
+        "distanceKmFromCenter": 34.0,
+        "distanceToNextAttraction": "28 km to Dubare",
+        "suggestedDurationHours": "2 Hours",
+        "description": "Second largest Tibetan settlement outside Dharamshala, housing magnificent 40-foot gold-plated Buddha statues, intricate Buddhist murals, and serene prayer halls.",
+        "highlight": "40-foot golden Padmasambhava statue & Tibetan momos",
+        "entryFee": "Free",
+        "openingTime": "09:00 AM",
+        "closingTime": "06:00 PM",
+        "insiderTip": "Witness the afternoon monks' chant at 01:00 PM with traditional horn instruments.",
+        "photographyAdvice": "Symmetrical compositions of the prayer hall's vibrant murals.",
+        "familySuitability": "Immaculate, peaceful gardens loved by children and families.",
+        "seniorAccessibility": "Flat terrain, easy access with wide paved walkways.",
+        "nearbySpots": ["Dubare Elephant Camp", "Nisargadhama Island"]
+      }
+    ],
+    "stays": [
+      {
+        "id": "coffee-county-homestay",
+        "name": "Coffee County Heritage Homestay",
+        "type": "Homestay",
+        "pricePerNight": 3200,
+        "rating": 4.8,
+        "reviewsCount": 620,
+        "distanceFromAttractions": "5 km from Madikeri",
+        "amenities": ["Coffee Estate Walks", "Authentic Kodava Dinner", "Campfire", "Balcony"],
+        "highlights": "Warm family hosts who cook legendary authentic Pandi Curry and Akki Rotti",
+        "categoryType": "Mid-Range"
+      },
+      {
+        "id": "heritage-resort-coorg",
+        "name": "Heritage Resort Coorg",
+        "type": "Resort",
+        "pricePerNight": 6500,
+        "rating": 4.7,
+        "reviewsCount": 1100,
+        "distanceFromAttractions": "8 km from Madikeri",
+        "amenities": ["Infinity Pool", "Ayurvedic Spa", "Boutique Restaurant", "Lush Lawn"],
+        "highlights": "Luxury chalets perched on a secluded ridge overlooking cardamom-clad hills",
+        "categoryType": "Luxury"
+      }
+    ],
+    "foodGuide": {
+      "localSpecialties": [
+        {
+          "name": "Pandi Curry & Akki Rotti",
+          "isVegetarian": false,
+          "description": "World-famous Kodava delicacy flavored with dark Kachampuli (wild Garcinia vinegar) and roasted black pepper, paired with soft rice flatbreads.",
+          "popularAt": "Traditional homestays and heritage Kodava restaurants in Madikeri",
+          "priceRange": "₹280 - ₹380",
+          "whereToTry": "Raintree Restaurant or Tiger Tiger Madikeri"
+        },
+        {
+          "name": "Coorg Kadambuttu with Bamboo Shoot Curry",
+          "isVegetarian": true,
+          "description": "Steamed broken rice dumplings paired with seasonal tender bamboo shoot (Baimbale) curry infused with coconut and mustard.",
+          "popularAt": "Local Kodava dining kitchens",
+          "priceRange": "₹180 - ₹240",
+          "whereToTry": "Taste of Coorg, Madikeri"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Raintree Heritage Restaurant",
+          "cuisine": "Kodava, Kerala & Continental",
+          "rating": 4.6,
+          "isVegFriendly": true,
+          "signatureDish": "Traditional Kodava Thali & Filter Coffee",
+          "priceForTwo": "₹800",
+          "distance": "Madikeri Town"
+        }
+      ]
+    },
+    "travelRoute": {
+      "originDistances": {
+        "Bengaluru": 250,
+        "Mysuru": 120,
+        "Hyderabad": 810,
+        "Chennai": 580,
+        "Mangaluru": 140
+      },
+      "drivingTimes": {
+        "Bengaluru": "5h 15m",
+        "Mysuru": "2h 30m",
+        "Hyderabad": "14h 00m"
+      },
+      "roadTripRoute": "Bengaluru -> Mysuru Expressway -> Hunsur -> Kushalnagar -> Madikeri.",
+      "tollAndParkingNotes": "Bengaluru-Mysuru 10-lane expressway toll ~₹330; resort parking free.",
+      "nearestRailwayStation": "Mysuru Junction (MYS) - 120 km; Subramanya Road - 85 km",
+      "nearestAirport": "Kannur International Airport (CNN) - 90 km; Mangalore (IXE) - 140 km",
+      "busTrainFlightOptions": "KSRTC Airavat Club Class Volvo buses run round the clock from Bengaluru to Madikeri.",
+      "fuelEstimateCar": {
+        "Bengaluru": 3600,
+        "Hyderabad": 11000,
+        "Chennai": 8200
+      },
+      "tollEstimate": {
+        "Bengaluru": 650,
+        "Hyderabad": 1900
+      },
+      "roadCondition": "Superfast expressway till Mysuru, followed by smooth shaded state highway into the hills."
+    },
+    "budget": {
+      "stayEstimatePerNight": 3200,
+      "foodEstimatePerDay": 1200,
+      "activitiesTotal": 1200,
+      "travelEstimate": 5000,
+      "totalEstimateMin": 13000,
+      "totalEstimateMax": 26000,
+      "tiers": [
+        {"tierName": "Budget", "soloCost": 8000, "coupleCost": 13500, "familyCost": 18500, "friendsCost": 17000},
+        {"tierName": "Mid-Range", "soloCost": 12500, "coupleCost": 20000, "familyCost": 28000, "friendsCost": 25000},
+        {"tierName": "Luxury", "soloCost": 21000, "coupleCost": 34000, "familyCost": 48000, "friendsCost": 42000}
+      ]
+    },
+    "timedScheduleTemplate": [
+      {"timeOfDay": "08:30 AM", "title": "Breakfast & Coffee", "placeOrActivity": "Fresh Akki rotti and estate-brewed coffee", "duration": "1 hour"},
+      {"timeOfDay": "10:00 AM", "title": "Tibetan Golden Temple", "placeOrActivity": "Namdroling Monastery in Bylakuppe", "duration": "2 hours"},
+      {"timeOfDay": "01:00 PM", "title": "Tibetan & Kodava Feast", "placeOrActivity": "Momo lunch followed by coffee plantation visit", "duration": "1.5 hours"},
+      {"timeOfDay": "03:30 PM", "title": "Waterfalls in the Forest", "placeOrActivity": "Abbey Falls walking suspension bridge", "duration": "2 hours"},
+      {"timeOfDay": "06:00 PM", "title": "Sunset View", "placeOrActivity": "Raja's Seat garden view of rolling twilight ridges", "duration": "1.5 hours"},
+      {"timeOfDay": "08:00 PM", "title": "Campfire Dinner", "placeOrActivity": "Bonfire with signature Pandi curry and rice dumplings", "duration": "2 hours"}
+    ]
+  },
+  {
+    "id": "munnar-kerala",
+    "name": "Munnar",
+    "state": "Kerala",
+    "district": "Idukki",
+    "latitude": 10.0889,
+    "longitude": 77.0595,
+    "tagline": "God's Own Hill Retreat • Tea Carpets & Neelakurinji",
+    "description": "Situated at 1,600 meters at the confluence of three mountain streams in Kerala's Western Ghats. Celebrated for velvety manicured tea gardens stretching to the horizon, endangered Nilgiri Tahr mountain goats at Eravikulam, and crisp spice-scented mountain air.",
+    "rating": 4.8,
+    "reviewCount": 4200,
+    "categories": ["Mountains", "Nature", "Couples", "Road Trips"],
+    "bestTime": {
+      "bestMonths": "September to March",
+      "weatherSummary": "Pleasant days and chilly nights wrapped in swirling fog",
+      "peakSeason": "December – January (winter chill & holiday season)",
+      "offSeason": "June – August (monsoon cascades)",
+      "expectedCrowd": "High in peak season, serene in off-season",
+      "temperatureRange": "10°C – 22°C",
+      "suggestedDuration": "3–4 Days",
+      "monthlyBreakdown": [
+        {"month": "October", "avgTempCelsius": "18°C", "rainfall": "Fresh & clear", "crowdLevel": "Moderate", "bestActivities": "Tea factory tours & spice garden trails"},
+        {"month": "December", "avgTempCelsius": "11°C", "rainfall": "Chilly & misty", "crowdLevel": "Peak", "bestActivities": "Anamudi peak views & Mattupetty boat rides"},
+        {"month": "January", "avgTempCelsius": "10°C", "rainfall": "Crisp morning frost", "crowdLevel": "Peak", "bestActivities": "Eravikulam Nilgiri Tahr spotting"}
+      ]
+    },
+    "attractions": [
+      {
+        "id": "eravikulam-national-park",
+        "name": "Eravikulam National Park (Rajamalai)",
+        "category": "Wildlife & Peak",
+        "distanceKmFromCenter": 12.0,
+        "distanceToNextAttraction": "16 km to Tea Museum",
+        "suggestedDurationHours": "3 Hours",
+        "description": "Sanctuary for the endangered Nilgiri Tahr mountain goat and home to South India's highest peak, Anamudi (2,695m). Rolling alpine shola grasslands and breathtaking cloud vistas.",
+        "highlight": "Spotting wild Nilgiri Tahr up close & Anamudi views",
+        "entryFee": "₹200 / Adult (includes eco-safari bus)",
+        "openingTime": "07:30 AM",
+        "closingTime": "04:00 PM (Closed Feb-March for calving)",
+        "insiderTip": "Book tickets online in advance to skip the 1-hour counter queue at Rajamalai bus station.",
+        "photographyAdvice": "Use telephoto lens for Tahr against dramatic mountain backdrop.",
+        "familySuitability": "Comfortable safari bus transports visitors to the scenic summit trail.",
+        "seniorAccessibility": "Safari bus covers steep incline; flat 1 km paved walking path at top.",
+        "nearbySpots": ["Lakkam Waterfalls", "Marayoor Sandalwood Forest"]
+      },
+      {
+        "id": "mattupetty-dam",
+        "name": "Mattupetty Dam & Echo Point",
+        "category": "Lake & Nature",
+        "distanceKmFromCenter": 11.0,
+        "distanceToNextAttraction": "4 km to Kundala Lake",
+        "suggestedDurationHours": "2 Hours",
+        "description": "A gravity dam surrounded by tea plantations and pine woods, featuring exhilarating speedboat cruises on shimmering turquoise reservoir waters.",
+        "highlight": "Speedboating across the mountain reservoir and horse rides",
+        "entryFee": "Entry ₹20; Speedboat ~₹600 for 5 persons",
+        "openingTime": "09:00 AM",
+        "closingTime": "05:30 PM",
+        "insiderTip": "Try the natural acoustic phenomenon at nearby Echo Point where voice resounds across the valley.",
+        "photographyAdvice": "Pine tree silhouettes against the turquoise lake reflection.",
+        "familySuitability": "Kids love speedboats and horseback riding by the lakeside.",
+        "seniorAccessibility": "Level walking paths on dam top with benches.",
+        "nearbySpots": ["Echo Point", "Kundala Arch Dam", "Top Station"]
+      }
+    ],
+    "stays": [
+      {
+        "id": "tea-county",
+        "name": "KTDC Tea County Resort",
+        "type": "Resort",
+        "pricePerNight": 4500,
+        "rating": 4.6,
+        "reviewsCount": 1820,
+        "distanceFromAttractions": "Central Munnar",
+        "amenities": ["Ayurvedic Wellness Spa", "Tea Garden Balconies", "Multi-Cuisine Restaurant"],
+        "highlights": "Perched on a green hillock right between two scenic tea hills",
+        "categoryType": "Mid-Range"
+      },
+      {
+        "id": "cardamom-homestay",
+        "name": "Fragrant Nature Munnar",
+        "type": "Resort",
+        "pricePerNight": 7500,
+        "rating": 4.8,
+        "reviewsCount": 940,
+        "distanceFromAttractions": "14 km from Town",
+        "amenities": ["Private Fireplace", "Terrace Garden", "Spa", "Tea Plantation Treks"],
+        "highlights": "Boutique luxury resort with private fireplaces in rooms and rolling cloud views",
+        "categoryType": "Luxury"
+      }
+    ],
+    "foodGuide": {
+      "localSpecialties": [
+        {
+          "name": "Kerala Appam with Vegetable Stew",
+          "isVegetarian": true,
+          "description": "Lacy fermented rice batter pancakes with soft fluffy centers, served with creamy coconut milk vegetable stew infused with whole cloves and cardamom.",
+          "popularAt": "Traditional tea garden restaurants across Munnar",
+          "priceRange": "₹150 - ₹220",
+          "whereToTry": "Rapsy Restaurant, Main Bazaar"
+        },
+        {
+          "name": "Karimeen Pollichathu (Pearl Spot Fish)",
+          "isVegetarian": false,
+          "description": "Freshwater fish marinated in shallots, tomato, ginger and red chili paste, wrapped in a fresh banana leaf and slow-roasted on a tawa.",
+          "popularAt": "Local heritage Kerala dining rooms",
+          "priceRange": "₹380 - ₹500",
+          "whereToTry": "Saravana Bhavan or Silver Spoon"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Rapsy Restaurant",
+          "cuisine": "Kerala & South Indian",
+          "rating": 4.4,
+          "isVegFriendly": true,
+          "signatureDish": "Kerala Parotta with Chicken Pepper Fry & Spiced Tea",
+          "priceForTwo": "₹450",
+          "distance": "Munnar Town Center"
+        }
+      ]
+    },
+    "travelRoute": {
+      "originDistances": {
+        "Kochi": 125,
+        "Bengaluru": 475,
+        "Chennai": 580,
+        "Hyderabad": 1050,
+        "Coimbatore": 160
+      },
+      "drivingTimes": {
+        "Kochi": "3h 45m",
+        "Bengaluru": "9h 30m",
+        "Coimbatore": "4h 30m"
+      },
+      "roadTripRoute": "Kochi -> Muvattupuzha -> Kothamangalam -> Adimali -> Neriamangalam -> Munnar (NH85 via Cheeyappara waterfalls).",
+      "tollAndParkingNotes": "Tolls minimal (~₹120); parking ₹50 at major tourist attractions.",
+      "nearestRailwayStation": "Aluva (AWY) - 110 km; Ernakulam Jn (ERS) - 125 km",
+      "nearestAirport": "Cochin International Airport (COK) - 110 km",
+      "busTrainFlightOptions": "Direct flights to Cochin Airport, then 3.5-hour scenic taxi or KSRTC low-floor AC bus up the Ghats.",
+      "fuelEstimateCar": {
+        "Kochi": 1800,
+        "Bengaluru": 6800,
+        "Chennai": 8200,
+        "Hyderabad": 14000
+      },
+      "tollEstimate": {
+        "Kochi": 150,
+        "Bengaluru": 950
+      },
+      "roadCondition": "NH85 Gap Road is a world-class scenic engineering marvel with smooth tarmac and cliffside viewpoints."
+    },
+    "budget": {
+      "stayEstimatePerNight": 3800,
+      "foodEstimatePerDay": 1200,
+      "activitiesTotal": 1500,
+      "travelEstimate": 6000,
+      "totalEstimateMin": 14000,
+      "totalEstimateMax": 28000,
+      "tiers": [
+        {"tierName": "Budget", "soloCost": 8500, "coupleCost": 14500, "familyCost": 19500, "friendsCost": 18000},
+        {"tierName": "Mid-Range", "soloCost": 13500, "coupleCost": 22000, "familyCost": 30000, "friendsCost": 27000},
+        {"tierName": "Luxury", "soloCost": 23000, "coupleCost": 37000, "familyCost": 52000, "friendsCost": 45000}
+      ]
+    },
+    "timedScheduleTemplate": [
+      {"timeOfDay": "08:00 AM", "title": "Breakfast in the Clouds", "placeOrActivity": "Appam with coconut stew and Munnar single-estate tea", "duration": "1 hour"},
+      {"timeOfDay": "09:30 AM", "title": "Eravikulam Wildlife Safari", "placeOrActivity": "Rajamalai park and spot wild Nilgiri Tahr", "duration": "3 hours"},
+      {"timeOfDay": "01:00 PM", "title": "Tea Factory Tour & Lunch", "placeOrActivity": "KDHP Tea Museum and live tea tasting", "duration": "2 hours"},
+      {"timeOfDay": "03:30 PM", "title": "Speedboating & Echoes", "placeOrActivity": "Mattupetty Dam speedboat and Echo Point", "duration": "2 hours"},
+      {"timeOfDay": "06:00 PM", "title": "Sunset Viewpoint", "placeOrActivity": "Pothamedu View Point over lush green chasms", "duration": "1 hour"},
+      {"timeOfDay": "08:00 PM", "title": "Kerala Dinner", "placeOrActivity": "Banana-leaf fish pollichathu and Malabar parotta", "duration": "1.5 hours"}
+    ]
+  },
+  {
+    "id": "hampi-karnataka",
+    "name": "Hampi",
+    "state": "Karnataka",
+    "district": "Vijayanagara",
+    "latitude": 15.3350,
+    "longitude": 76.4600,
+    "tagline": "The Forgotten Empire • UNESCO World Heritage & Boulders",
+    "description": "A UNESCO World Heritage site and surreal open-air museum spread over 4,100 hectares of granite boulders along the Tungabhadra River. The glorious capital of the 14th-century Vijayanagara Empire, featuring musical stone pillars, the iconic stone chariot, coracle river rides, and bohemian hippie island vibes.",
+    "rating": 4.9,
+    "reviewCount": 4600,
+    "categories": ["Heritage", "Adventure", "Couples", "Road Trips"],
+    "bestTime": {
+      "bestMonths": "October to March",
+      "weatherSummary": "Warm dry days and cool starry nights amongst ancient monuments",
+      "peakSeason": "November – February (Hampi Utsav cultural festival)",
+      "offSeason": "April – June (hot granite summer)",
+      "expectedCrowd": "Moderate to High",
+      "temperatureRange": "16°C – 32°C",
+      "suggestedDuration": "3 Days / 2 Nights",
+      "monthlyBreakdown": [
+        {"month": "November", "avgTempCelsius": "24°C", "rainfall": "Clear blue skies", "crowdLevel": "Peak", "bestActivities": "Hampi Utsav, stone chariot & coracle rides"},
+        {"month": "December", "avgTempCelsius": "20°C", "rainfall": "Crisp sunny days", "crowdLevel": "Peak", "bestActivities": "Matanga hill sunrise & boulder bouldering"},
+        {"month": "January", "avgTempCelsius": "19°C", "rainfall": "Pleasant breezes", "crowdLevel": "Peak", "bestActivities": "Sanapur lake cliff jumps & bicycle heritage tours"}
+      ]
+    },
+    "attractions": [
+      {
+        "id": "vijaya-vittala",
+        "name": "Vijaya Vittala Temple & Stone Chariot",
+        "category": "Heritage & Architecture",
+        "distanceKmFromCenter": 3.0,
+        "distanceToNextAttraction": "3.5 km to Virupaksha",
+        "suggestedDurationHours": "2.5 Hours",
+        "description": "The crowning jewel of Vijayanagara architecture featuring the world-famous monolithic Garuda Stone Chariot (depicted on the ₹50 banknote) and the 56 Musical Pillars that emit musical notes when tapped.",
+        "highlight": "Stone Chariot & 56 Musical Pillars",
+        "entryFee": "₹40 / Indian Citizen, ₹600 / Foreigner (covers Vittala & Zenana)",
+        "openingTime": "08:30 AM",
+        "closingTime": "05:30 PM",
+        "insiderTip": "Hop on the electric golf cart from the parking area to the temple gate. Visit at 03:30 PM for warm golden lighting on granite sculptures.",
+        "photographyAdvice": "Capture the Stone Chariot with low angles as the afternoon sun casts warm amber glow over carved wheels.",
+        "familySuitability": "Expansive open stone courtyards, very educational.",
+        "seniorAccessibility": "Electric battery vehicles ferry seniors from parking lot directly to entrance.",
+        "nearbySpots": ["King's Balance", "Purandara Dasa Mandapa", "Tungabhadra Riverfront"]
+      },
+      {
+        "id": "matanga-hill",
+        "name": "Matanga Hill Sunrise Trek",
+        "category": "Scenic Peak & Sunrise",
+        "distanceKmFromCenter": 1.0,
+        "distanceToNextAttraction": "1 km to Hampi Bazaar",
+        "suggestedDurationHours": "2 Hours",
+        "description": "The highest point in central Hampi offering an unforgettable 360-degree panoramic view of the entire ruin-strewn landscape, winding Tungabhadra river, and Virupaksha temple tower at dawn.",
+        "highlight": "360-degree sunrise view over the ancient empire ruins",
+        "entryFee": "Free",
+        "openingTime": "05:30 AM",
+        "closingTime": "06:30 PM",
+        "insiderTip": "Start climbing at 05:45 AM from near the Achyutaraya temple side; carry a torch and sturdy sneakers.",
+        "photographyAdvice": "Silhouette shots of ancient stone shrines against the rising golden sun.",
+        "familySuitability": "Requires climbing steep boulder stairs; suitable for teens and active adults.",
+        "seniorAccessibility": "Steep rocky trail; seniors can enjoy Virupaksha temple ground level instead.",
+        "nearbySpots": ["Virupaksha Temple", "Monolithic Bull", "Achyutaraya Temple"]
+      }
+    ],
+    "stays": [
+      {
+        "id": "heritage-resort-hampi",
+        "name": "Heritage Resort Hampi",
+        "type": "Resort",
+        "pricePerNight": 4800,
+        "rating": 4.7,
+        "reviewsCount": 890,
+        "distanceFromAttractions": "6 km from Vittala Temple",
+        "amenities": ["Organic Farm Dining", "Outdoor Pool", "Ayurvedic Spa", "Bicycle Rentals"],
+        "highlights": "Eco-friendly stone chalets set amidst 8 acres of mango and coconut groves",
+        "categoryType": "Mid-Range"
+      },
+      {
+        "id": "kstdc-mayura",
+        "name": "KSTDC Hotel Mayura Bhuvaneshwari",
+        "type": "Hotel",
+        "pricePerNight": 2400,
+        "rating": 4.2,
+        "reviewsCount": 1400,
+        "distanceFromAttractions": "Kamalapur, 2 km from Royal Enclosure",
+        "amenities": ["Government Run", "Courtyard Restaurant", "Parking", "Travel Desk"],
+        "highlights": "Right next to the Archeological Museum and Queen's Bath",
+        "categoryType": "Budget"
+      }
+    ],
+    "foodGuide": {
+      "localSpecialties": [
+        {
+          "name": "North Karnataka Jolada Rotti Oota",
+          "isVegetarian": true,
+          "description": "Unlimited traditional thali featuring hot jowar rotis, stuffed eggplant (Ennegai), spicy Shenga (peanut) chutney, sprouted grain curry, and fresh yogurt.",
+          "popularAt": "Local traditional Khanavalis in Kamalapur",
+          "priceRange": "₹120 - ₹180",
+          "whereToTry": "Sri Venkateshwara Khanavali, Kamalapur"
+        },
+        {
+          "name": "Mango Tree Special Wood-Fired Pizza & Thali",
+          "isVegetarian": true,
+          "description": "Iconic traveler haven offering floor seating with river vibes, serving fresh thin-crust pizzas, falafel platters, and authentic Karnataka thalis.",
+          "popularAt": "Mango Tree Restaurant, near Virupaksha",
+          "priceRange": "₹250 - ₹400",
+          "whereToTry": "Mango Tree Restaurant, Hampi"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Mango Tree Restaurant",
+          "cuisine": "Karnataka, Continental & Israeli",
+          "rating": 4.7,
+          "isVegFriendly": true,
+          "signatureDish": "Jolada Rotti Thali & Wood-Fired Pizza",
+          "priceForTwo": "₹600",
+          "distance": "Near Temple Street"
+        }
+      ]
+    },
+    "travelRoute": {
+      "originDistances": {
+        "Hyderabad": 370,
+        "Bengaluru": 340,
+        "Goa": 310,
+        "Pune": 560,
+        "Chennai": 680
+      },
+      "drivingTimes": {
+        "Hyderabad": "7h 00m",
+        "Bengaluru": "6h 15m",
+        "Goa": "6h 45m"
+      },
+      "roadTripRoute": "From Hyderabad: NH44 to Raichur -> Sindhanur -> Gangavathi -> Hampi. From Bengaluru: NH48 to Chitradurga -> NH50 to Hosapete -> Hampi.",
+      "tollAndParkingNotes": "Tolls ~₹450; monument parking ₹30-₹50.",
+      "nearestRailwayStation": "Hosapete Junction (HPT) - 13 km (connected to Bengaluru, Hyderabad, Goa)",
+      "nearestAirport": "Jindal Vijayanagar Airport, Vidyanagar (VDY) - 35 km; Hubballi (HBX) - 145 km",
+      "busTrainFlightOptions": "Direct overnight Hampi Express trains from Bengaluru. KSRTC and private sleeper buses run nightly from Hyderabad and Bengaluru.",
+      "fuelEstimateCar": {
+        "Hyderabad": 5200,
+        "Bengaluru": 4800,
+        "Goa": 4400
+      },
+      "tollEstimate": {
+        "Hyderabad": 600,
+        "Bengaluru": 550
+      },
+      "roadCondition": "NH50 is a smooth 4-lane expressway with scenic boulder plains."
+    },
+    "budget": {
+      "stayEstimatePerNight": 2800,
+      "foodEstimatePerDay": 900,
+      "activitiesTotal": 1000,
+      "travelEstimate": 4500,
+      "totalEstimateMin": 10000,
+      "totalEstimateMax": 22000,
+      "tiers": [
+        {"tierName": "Budget", "soloCost": 6500, "coupleCost": 11500, "familyCost": 16000, "friendsCost": 14500},
+        {"tierName": "Mid-Range", "soloCost": 10500, "coupleCost": 17500, "familyCost": 24000, "friendsCost": 22000},
+        {"tierName": "Luxury", "soloCost": 17000, "coupleCost": 28000, "familyCost": 39000, "friendsCost": 35000}
+      ]
+    },
+    "timedScheduleTemplate": [
+      {"timeOfDay": "06:00 AM", "title": "Golden Dawn at Matanga", "placeOrActivity": "Watch sunrise over Tungabhadra boulder plains", "duration": "2 hours", "tip": "Wear grip shoes for granite stairs"},
+      {"timeOfDay": "08:30 AM", "title": "Khanavali Breakfast", "placeOrActivity": "Hot thatte idli and filter coffee near temple", "duration": "1 hour"},
+      {"timeOfDay": "10:00 AM", "title": "Virupaksha & Riverside", "placeOrActivity": "Virupaksha 7th-century active temple and coracle boat ride", "duration": "2.5 hours"},
+      {"timeOfDay": "01:00 PM", "title": "Lunch at Mango Tree", "placeOrActivity": "Jolada Rotti thali with stuffed brinjal", "duration": "1.5 hours"},
+      {"timeOfDay": "03:30 PM", "title": "Stone Chariot & Vittala", "placeOrActivity": "Vijaya Vittala temple and musical pillars", "duration": "2.5 hours"},
+      {"timeOfDay": "06:30 PM", "title": "Sunset at Hemakuta Hill", "placeOrActivity": "Atmospheric sunset sitting on ancient monolithic boulders", "duration": "1.5 hours"}
+    ]
+  }
+]

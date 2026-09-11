@@ -1,0 +1,6 @@
+{
+  "name": "Trip Planner",
+  "description": "All-in-one travel guide and AI trip planner for destinations across India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
