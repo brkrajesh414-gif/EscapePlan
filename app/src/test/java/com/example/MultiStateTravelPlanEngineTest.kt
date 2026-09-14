@@ -227,4 +227,30 @@ class MultiStateTravelPlanEngineTest {
         val hyderabad = telanganaDestinations.find { it.id == "telangana-hyderabad" }
         assertNotNull("Hyderabad destination must still exist intact", hyderabad)
     }
+
+    @Test
+    fun testPrintExactDataCounts() {
+        val allDests = DestinationsDataSource.destinations
+        val totalDestinations = allDests.size
+        val totalAttractions = allDests.sumOf { it.attractions.size }
+        val totalHiddenGems = allDests.sumOf { it.hiddenGems.size }
+        val totalStays = allDests.sumOf { it.stays.size }
+        val totalFoods = allDests.sumOf { it.foodGuide.localSpecialties.size }
+        val totalRestaurants = allDests.sumOf { it.foodGuide.restaurants.size }
+        val totalSeasons = allDests.sumOf { it.seasons.size }
+        val allStatesInDests = allDests.map { it.state }.distinct()
+        val allMasterStates = com.example.data.model.IndiaStatesMaster.allStatesAndUTs.filter { it.type == com.example.data.model.StateType.STATE }
+        val allMasterUTs = com.example.data.model.IndiaStatesMaster.allStatesAndUTs.filter { it.type == com.example.data.model.StateType.UNION_TERRITORY }
+
+        println("AUDIT_COUNT: Destinations = $totalDestinations")
+        println("AUDIT_COUNT: Attractions = $totalAttractions")
+        println("AUDIT_COUNT: HiddenGems = $totalHiddenGems")
+        println("AUDIT_COUNT: Stays = $totalStays")
+        println("AUDIT_COUNT: LocalSpecialties = $totalFoods")
+        println("AUDIT_COUNT: Restaurants = $totalRestaurants")
+        println("AUDIT_COUNT: SeasonEntries = $totalSeasons")
+        println("AUDIT_COUNT: StatesInDestinations = ${allStatesInDests.size} ($allStatesInDests)")
+        println("AUDIT_COUNT: MasterStates = ${allMasterStates.size}")
+        println("AUDIT_COUNT: MasterUTs = ${allMasterUTs.size}")
+    }
 }
