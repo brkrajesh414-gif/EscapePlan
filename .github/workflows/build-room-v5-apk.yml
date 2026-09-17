@@ -16,6 +16,21 @@ jobs:
           test "$(git hash-object EscapePlan-v2-Room-v5-Firebase-source.zip)" = "4687cc76024cfb7ac31d001f40d1003a2a5c3ab6"
           unzip -q EscapePlan-v2-Room-v5-Firebase-source.zip -d room-v5-build
           test -f room-v5-build/EscapePlan/app/build.gradle.kts
+      - name: Apply compiler compatibility fixes
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          root = Path("room-v5-build/EscapePlan/app/src/main/java/com/example")
+          screen = root / "ui/screens/PlaceCatalogScreen.kt"
+          text = screen.read_text()
+          assert "import androidx.compose.foundation.layout.weight\n" in text
+          screen.write_text(text.replace("import androidx.compose.foundation.layout.weight\n", ""))
+          exporter = root / "util/TripExporter.kt"
+          text = exporter.read_text()
+          assert "PdfDocument().use" in text, "PDF receiver requires further inspection"
+          text += "\nprivate inline fun <T> android.graphics.pdf.PdfDocument.use(block: (android.graphics.pdf.PdfDocument) -> T): T = try { block(this) } finally { close() }\n"
+          exporter.write_text(text)
+          PY
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
