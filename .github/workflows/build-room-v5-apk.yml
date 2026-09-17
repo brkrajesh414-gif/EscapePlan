@@ -23,9 +23,8 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '9.3.1'
-      - uses: android-actions/setup-android@v3
       - name: Install SDK
-        run: sdkmanager "platforms;android-36.1" "build-tools;36.0.0"
+        run: '"$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36.1" "build-tools;36.0.0"'
       - name: Validate catalogue and migration
         working-directory: room-v5-build/EscapePlan
         run: |
