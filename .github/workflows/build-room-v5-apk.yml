@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      GOOGLE_WEB_CLIENT_ID: ${{ secrets.GOOGLE_WEB_CLIENT_ID }}
+      MAPS_ANDROID_KEY: ${{ secrets.MAPS_ANDROID_KEY }}
     steps:
       - uses: actions/checkout@v4
       - name: Extract Room v5 source
@@ -31,6 +34,22 @@ jobs:
           text += "\nprivate inline fun <T> android.graphics.pdf.PdfDocument.use(block: (android.graphics.pdf.PdfDocument) -> T): T = try { block(this) } finally { close() }\n"
           exporter.write_text(text)
           PY
+      - name: Apply app improvements
+        run: cp -a room-v5-overrides/. room-v5-build/EscapePlan/
+      - name: Configure connected services when provided
+        env:
+          GOOGLE_SERVICES_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
+        run: |
+          python3 - <<'PY'
+          import os, json
+          from pathlib import Path
+          value = os.environ.get("GOOGLE_SERVICES_JSON", "")
+          if value:
+              data = json.loads(value)
+              expected = "com.aistudio.tripplanner.kvxwq"
+              assert any(c.get("client_info", {}).get("android_client_info", {}).get("package_name") == expected for c in data.get("client", [])), "Firebase package mismatch"
+              Path("room-v5-build/EscapePlan/app/google-services.json").write_text(value)
+          PY
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -50,7 +69,6 @@ jobs:
           node --test functions/validation.test.js
       - name: Run Android unit tests
         id: unit_tests
-        continue-on-error: true
         working-directory: room-v5-build/EscapePlan
         run: gradle --no-daemon :app:testDebugUnitTest --stacktrace
       - name: Record test status
