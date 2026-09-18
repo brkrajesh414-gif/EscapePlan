@@ -35,6 +35,14 @@ class DiscoveryFlowTest {
         compose.onNodeWithText("Varanasi").assertExists()
     }
 
+    @Test fun attractionSearchOpensRegionalNotes() {
+        compose.setContent { MyApplicationTheme { UnifiedExploreScreen({}, {}, {}, {}) } }
+        compose.onNodeWithText("Place, state or interest").performTextInput("Nohkalikai")
+        compose.waitUntil(15000) { compose.onAllNodesWithText("View regional guide").fetchSemanticsNodes().isNotEmpty() }
+        compose.onNodeWithText("View regional guide").performClick()
+        compose.onNodeWithText("Waterfalls/Caves").assertExists()
+    }
+
     @Test fun guestCanContinueWhenFirebaseMissing() {
         var continued = false
         compose.setContent {

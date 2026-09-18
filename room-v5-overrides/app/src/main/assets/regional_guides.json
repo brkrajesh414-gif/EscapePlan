@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "jammu-kashmir",
+    "name": "Jammu & Kashmir",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Apr–Oct (summer, cool); snow Dec–Feb"
+      },
+      {
+        "label": "Historical",
+        "text": "Mughal Gardens (Nishat, Shalimar, Chashme Shahi), Hari Parbat Fort, Pari Mahal"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Vaishno Devi (Katra), Amarnath Cave, Shankaracharya Temple, Hazratbal Shrine"
+      },
+      {
+        "label": "Hill Stations",
+        "text": "Gulmarg, Pahalgam, Sonmarg, Patnitop"
+      },
+      {
+        "label": "Nature",
+        "text": "Dal Lake, Betaab Valley, Aru & Baisaran meadows, Dachigam National Park"
+      },
+      {
+        "label": "Rivers/Water",
+        "text": "Jhelum River, Lidder River, Wular Lake"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Doodhpathri, Yusmarg, Gurez Valley"
+      },
+      {
+        "label": "Stay",
+        "text": "Houseboats on Dal Lake, Srinagar hotels, Gulmarg ski resorts, Pahalgam cottages"
+      },
+      {
+        "label": "Food",
+        "text": "Rogan Josh, Wazwan, Kahwa tea, Modur Pulao, Kashmiri dum aloo"
+      },
+      {
+        "label": "Travel",
+        "text": "Fly to Srinagar Airport; Jammu Tawi rail head then road; NH44 for road travel"
+      }
+    ]
+  },
+  {
+    "id": "ladakh",
+    "name": "Ladakh",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "May–Sep (roads open); winter for frozen Chadar trek (Jan–Feb, extreme)"
+      },
+      {
+        "label": "Historical",
+        "text": "Leh Palace, Shey & Basgo Monasteries, Stok Palace"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Hemis, Thiksey, Diskit, Lamayuru Monasteries; Magnetic Hill"
+      },
+      {
+        "label": "High-altitude terrain",
+        "text": "Khardung La, Chang La passes"
+      },
+      {
+        "label": "Nature",
+        "text": "Pangong Tso, Tso Moriri, Nubra Valley (sand dunes), Hemis National Park (snow leopard)"
+      },
+      {
+        "label": "Rivers",
+        "text": "Indus & Zanskar River confluence at Nimmu"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Turtuk village, Hanle (dark-sky reserve), Zanskar Valley"
+      },
+      {
+        "label": "Stay",
+        "text": "Leh guesthouses, Nubra camps, Pangong lakeside tents (seasonal)"
+      },
+      {
+        "label": "Food",
+        "text": "Thukpa, Momos, Butter tea, Skyu, Chhutagi"
+      },
+      {
+        "label": "Travel",
+        "text": "Fly to Leh (Kushok Bakula Rimpochee Airport); road via Manali or Srinagar (summer only); altitude acclimatization essential"
+      }
+    ]
+  },
+  {
+    "id": "himachal-pradesh",
+    "name": "Himachal Pradesh",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Mar–Jun (summer), Dec–Feb (snow)"
+      },
+      {
+        "label": "Historical",
+        "text": "Christ Church Shimla, Kangra Fort, Naggar Castle"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Jwalamukhi Temple, Baijnath Temple, Hidimba Devi Temple (Manali), Chintpurni"
+      },
+      {
+        "label": "Hill Stations",
+        "text": "Shimla, Manali, Dharamshala-McLeod Ganj, Kasauli, Dalhousie, Kufri"
+      },
+      {
+        "label": "Nature",
+        "text": "Rohtang Pass, Great Himalayan National Park, Solang Valley, Khajjiar (\"Mini Switzerland\")"
+      },
+      {
+        "label": "Rivers/Dams",
+        "text": "Beas River, Pong Dam, Bhakra Dam (border with Punjab)"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Tirthan Valley, Barot Valley, Chitkul, Kalpa, Spiti Valley"
+      },
+      {
+        "label": "Stay",
+        "text": "Colonial-era hotels in Shimla, riverside cottages in Manali/Kasol, homestays in Spiti"
+      },
+      {
+        "label": "Food",
+        "text": "Dham (traditional thali), Siddu, Babru, Chana Madra, Himachali trout"
+      },
+      {
+        "label": "Travel",
+        "text": "Fly to Kullu-Manali (Bhuntar) or Shimla; toy train Kalka-Shimla; NH3/NH5 road network"
+      }
+    ]
+  },
+  {
+    "id": "punjab",
+    "name": "Punjab",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Mar (winter, pleasant)"
+      },
+      {
+        "label": "Historical",
+        "text": "Jallianwala Bagh, Wagah Border, Qila Mubarak (Patiala), Anandpur Sahib Fort"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Golden Temple (Amritsar), Durgiana Temple, Anandpur Sahib"
+      },
+      {
+        "label": "Nature",
+        "text": "Harike Wetland (bird sanctuary), rural farmland circuits"
+      },
+      {
+        "label": "Rivers/Dams",
+        "text": "Sutlej River, Beas River, Bhakra Nangal Dam"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Kila Raipur (rural games), Chandigarh's Rock Garden (shared with Haryana/UT)"
+      },
+      {
+        "label": "Stay",
+        "text": "Amritsar heritage hotels near Golden Temple, farm-stays in Punjab countryside"
+      },
+      {
+        "label": "Food",
+        "text": "Amritsari Kulcha, Sarson da Saag with Makki di Roti, Lassi, Butter Chicken , Chole Bhature"
+      },
+      {
+        "label": "Travel",
+        "text": "Fly to Amritsar (Sri Guru Ram Dass Jee Airport); well-connected by rail"
+      }
+    ]
+  },
+  {
+    "id": "uttarakhand",
+    "name": "Uttarakhand",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Mar–Jun & Sep–Nov; monsoon (Jul–Aug) risky for hill roads"
+      },
+      {
+        "label": "Historical",
+        "text": "Kalsi Ashoka Rock Edict, Jageshwar temple complex"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Char Dham (Kedarnath, Badrinath, Gangotri, Yamunotri), Haridwar Ganga Aarti, Rishikesh"
+      },
+      {
+        "label": "Hill Stations",
+        "text": "Nainital, Mussoorie, Almora, Ranikhet, Auli"
+      },
+      {
+        "label": "Nature",
+        "text": "Jim Corbett National Park, Valley of Flowers, Nanda Devi Biosphere"
+      },
+      {
+        "label": "Rivers/Water",
+        "text": "Ganges origin (Gangotri), Alaknanda, Bhagirathi rivers, Nainital Lake"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Chopta (\"Mini Switzerland of Uttarakhand\"), Munsiyari, Binsar"
+      },
+      {
+        "label": "Stay",
+        "text": "Rishikesh riverside ashrams/resorts, Nainital lakeview hotels, Corbett jungle lodges"
+      },
+      {
+        "label": "Food",
+        "text": "Kafuli, Aloo ke Gutke, Bal Mithai, Garhwali Dal"
+      },
+      {
+        "label": "Travel",
+        "text": "Fly to Dehradun (Jolly Grant) or Pantnagar; Haridwar/Rishikesh are major rail heads"
+      }
+    ]
+  },
+  {
+    "id": "delhi-nct",
+    "name": "Delhi (NCT)",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Mar (winter/pleasant); summers very hot"
+      },
+      {
+        "label": "Historical",
+        "text": "Red Fort, Qutub Minar, Humayun's Tomb, India Gate, Purana Qila"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Akshardham Temple, Lotus Temple, Jama Masjid, ISKCON Temple, Gurudwara Bangla Sahib"
+      },
+      {
+        "label": "Nature",
+        "text": "Lodhi Garden, Deer Park, Yamuna Biodiversity Park"
+      },
+      {
+        "label": "Food",
+        "text": "Chandni Chowk street food (paranthe wali gali), Chaat, Butter Chicken, Kebabs"
+      },
+      {
+        "label": "Stay",
+        "text": "All budgets, Connaught Place/Karol Bagh/Paharganj/Aerocity clusters"
+      },
+      {
+        "label": "Travel",
+        "text": "IGI Airport (major hub), extensive Metro network, all rail lines converge here"
+      }
+    ]
+  },
+  {
+    "id": "uttar-pradesh",
+    "name": "Uttar Pradesh",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Mar"
+      },
+      {
+        "label": "Historical",
+        "text": "Taj Mahal & Agra Fort (Agra), Fatehpur Sikri, Allahabad Fort"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Varanasi Ghats & Kashi Vishwanath, Mathura-Vrindavan (Krishna Janmabhoomi), Ayodhya Ram Mandir, Prayagraj (Kumbh site), Sarnath (Buddhist)"
+      },
+      {
+        "label": "Nature",
+        "text": "Dudhwa National Park, Chambal Sanctuary"
+      },
+      {
+        "label": "Rivers",
+        "text": "Ganga, Yamuna, Sarayu — Ganga Aarti at Varanasi/Prayagraj famous"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Chitrakoot, Deogarh temples, Bateshwar temples on Yamuna"
+      },
+      {
+        "label": "Stay",
+        "text": "Agra hotels near Taj, Varanasi ghat-facing guesthouses"
+      },
+      {
+        "label": "Food",
+        "text": "Awadhi Biryani & Kebabs (Lucknow), Banarasi Paan, Petha (Agra), Kachori-Sabzi"
+      },
+      {
+        "label": "Travel",
+        "text": "Airports at Lucknow, Varanasi, Agra; excellent rail connectivity; Yamuna Expressway to Agra"
+      }
+    ]
+  },
+  {
+    "id": "rajasthan",
+    "name": "Rajasthan",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Mar (summer extremely hot, avoid Apr–Jun)"
+      },
+      {
+        "label": "Historical",
+        "text": "Amber Fort & City Palace (Jaipur), Mehrangarh Fort (Jodhpur), Chittorgarh Fort, Jaisalmer Fort, Umaid Bhawan Palace"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Pushkar Brahma Temple, Ranakpur Jain Temples, Karni Mata Temple (Bikaner), Dilwara Temples (Mt Abu)"
+      },
+      {
+        "label": "Hill Station",
+        "text": "Mount Abu (only hill station in Rajasthan)"
+      },
+      {
+        "label": "Nature",
+        "text": "Ranthambore National Park (tigers), Keoladeo Bird Sanctuary (Bharatpur), Sariska Tiger Reserve, Thar Desert (Jaisalmer dunes)"
+      },
+      {
+        "label": "Rivers/Lakes",
+        "text": "Lake Pichola & Fateh Sagar (Udaipur), Chambal River"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Bundi, Shekhawati (fresco havelis), Kumbhalgarh Fort, Osian desert town"
+      },
+      {
+        "label": "Stay",
+        "text": "Heritage palace hotels (Udaipur, Jaipur, Jodhpur), desert camps in Jaisalmer, lake-view resorts"
+      },
+      {
+        "label": "Food",
+        "text": "Dal Baati Churma, Laal Maas, Gatte ki Sabzi, Ghewar, Pyaaz Kachori"
+      },
+      {
+        "label": "Travel",
+        "text": "Airports at Jaipur, Udaipur, Jodhpur; Palace on Wheels luxury train; well-linked road network (Golden Triangle circuit with Delhi-Agra)"
+      }
+    ]
+  },
+  {
+    "id": "gujarat",
+    "name": "Gujarat",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Nov–Feb (Rann Utsav season); avoid summer heat"
+      },
+      {
+        "label": "Historical",
+        "text": "Sun Temple Modhera, Lothal (Indus Valley site), Champaner-Pavagadh (UNESCO)"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Somnath Temple, Dwarkadhish Temple, Akshardham (Gandhinagar), Ambaji Temple, Palitana Jain Temples"
+      },
+      {
+        "label": "Nature",
+        "text": "Gir National Park (only wild Asiatic lions), Rann of Kutch (White Desert), Nal Sarovar Bird Sanctuary"
+      },
+      {
+        "label": "Rivers/Dams",
+        "text": "Sardar Sarovar Dam (Statue of Unity, Narmada), Sabarmati Riverfront"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Kutch handicraft villages, Diu (Portuguese heritage, shares UT status), Saputara hill station"
+      },
+      {
+        "label": "Stay",
+        "text": "Rann Utsav tent city (seasonal), Ahmedabad heritage hotels, Gir jungle resorts"
+      },
+      {
+        "label": "Food",
+        "text": "Dhokla, Thepla, Undhiyu, Gujarati Thali, Fafda-Jalebi"
+      },
+      {
+        "label": "Travel",
+        "text": "Airports at Ahmedabad, Rajkot, Vadodara; well-connected by rail and NH48"
+      }
+    ]
+  },
+  {
+    "id": "maharashtra",
+    "name": "Maharashtra",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Feb; monsoon (Jun–Sep) great for Western Ghats waterfalls"
+      },
+      {
+        "label": "Historical",
+        "text": "Ajanta & Ellora Caves (UNESCO), Gateway of India, Raigad Fort (Shivaji), Shaniwar Wada (Pune)"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Siddhivinayak Temple (Mumbai), Shirdi Sai Baba Temple, Trimbakeshwar Jyotirlinga (Nashik), Pandharpur"
+      },
+      {
+        "label": "Hill Stations",
+        "text": "Mahabaleshwar, Lonavala-Khandala, Matheran (toy train), Panchgani"
+      },
+      {
+        "label": "Nature",
+        "text": "Sanjay Gandhi National Park, Tadoba Tiger Reserve, Western Ghats trails"
+      },
+      {
+        "label": "Rivers/Dams/Falls",
+        "text": "Godavari River (Nashik origin), Koyna Dam, Bhandardara waterfalls, Dudhsagar (border with Goa)"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Harihar Fort trek, Velas turtle village, Tarkarli beach"
+      },
+      {
+        "label": "Stay",
+        "text": "Mumbai's full spectrum, Lonavala resorts, Nashik vineyard stays"
+      },
+      {
+        "label": "Food",
+        "text": "Vada Pav, Misal Pav, Puran Poli, Kolhapuri Mutton, Modak"
+      },
+      {
+        "label": "Travel",
+        "text": "Mumbai (Chhatrapati Shivaji Airport, major hub), Pune Airport; extensive suburban rail + long distance network"
+      }
+    ]
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Nov–Feb (peak); monsoon Jun–Sep lush but many activities shut"
+      },
+      {
+        "label": "Historical",
+        "text": "Basilica of Bom Jesus, Se Cathedral, Fort Aguada, Chapora Fort (UNESCO Old Goa churches)"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Shri Mangeshi Temple, Shanta Durga Temple"
+      },
+      {
+        "label": "Nature",
+        "text": "Dudhsagar Falls, Bhagwan Mahavir Wildlife Sanctuary, Salim Ali Bird Sanctuary"
+      },
+      {
+        "label": "Beaches",
+        "text": "Baga, Calangute, Palolem, Anjuna, Arambol (each with a distinct vibe — party, quiet, hippie)"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Divar Island, Chorla Ghat, Cotigao Sanctuary"
+      },
+      {
+        "label": "Stay",
+        "text": "Beach shacks/hostels (Anjuna/Arambol), luxury resorts (South Goa), Panjim heritage Portuguese houses"
+      },
+      {
+        "label": "Food",
+        "text": "Goan Fish Curry Rice, Vindaloo, Bebinca, Feni (local liquor), Prawn Balchão"
+      },
+      {
+        "label": "Travel",
+        "text": "Goa (Dabolim) and Manohar (Mopa) airports; Konkan Railway coastal route; rent scooters for local travel"
+      }
+    ]
+  },
+  {
+    "id": "madhya-pradesh",
+    "name": "Madhya Pradesh",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Mar; wildlife parks close Jul–Sep (monsoon)"
+      },
+      {
+        "label": "Historical",
+        "text": "Khajuraho Temples (UNESCO), Sanchi Stupa, Gwalior Fort, Mandu ruins"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Omkareshwar & Mahakaleshwar Jyotirlingas (Ujjain), Amarkantak (Narmada origin)"
+      },
+      {
+        "label": "Nature",
+        "text": "Kanha, Bandhavgarh, Pench National Parks (tiger reserves), Pachmarhi (only hill station, \"Satpura Queen\")"
+      },
+      {
+        "label": "Rivers/Water",
+        "text": "Narmada River, Bhedaghat Marble Rocks, Dhuandhar Falls"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Orchha (riverside temples/cenotaphs), Chanderi (handloom town)"
+      },
+      {
+        "label": "Stay",
+        "text": "Jungle lodges near Kanha/Bandhavgarh, Khajuraho heritage hotels"
+      },
+      {
+        "label": "Food",
+        "text": "Poha-Jalebi, Bhutte ka Kees, Dal Bafla, Malpua"
+      },
+      {
+        "label": "Travel",
+        "text": "Airports at Bhopal, Indore, Khajuraho; central location makes it well-linked by rail to all regions"
+      }
+    ]
+  },
+  {
+    "id": "chhattisgarh",
+    "name": "Chhattisgarh",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Nov–Feb"
+      },
+      {
+        "label": "Historical",
+        "text": "Bhoramdeo Temple (\"Khajuraho of Chhattisgarh\"), Sirpur ruins"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Danteshwari Temple (Dantewada), Rajivlochan Temple"
+      },
+      {
+        "label": "Nature",
+        "text": "Kanger Valley National Park, Indravati Tiger Reserve, Barnawapara Sanctuary"
+      },
+      {
+        "label": "Waterfalls",
+        "text": "Chitrakote Falls (\"Niagara of India\"), Tirathgarh Falls"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Bastar tribal circuit, Kutumsar Caves"
+      },
+      {
+        "label": "Stay",
+        "text": "Raipur city hotels, eco-resorts near Kanger Valley"
+      },
+      {
+        "label": "Food",
+        "text": "Chila, Faraa, Bafauri, Muthiya"
+      },
+      {
+        "label": "Travel",
+        "text": "Raipur Airport main gateway; road travel needed for Bastar region"
+      }
+    ]
+  },
+  {
+    "id": "west-bengal",
+    "name": "West Bengal",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Mar (plains); Apr–Jun & Oct–Dec (Darjeeling hills)"
+      },
+      {
+        "label": "Historical",
+        "text": "Victoria Memorial, Howrah Bridge, Hazarduari Palace (Murshidabad)"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Dakshineswar Kali Temple, Belur Math, Kalighat Temple, Tarapith"
+      },
+      {
+        "label": "Hill Stations",
+        "text": "Darjeeling (toy train, UNESCO), Kalimpong"
+      },
+      {
+        "label": "Nature",
+        "text": "Sundarbans (Royal Bengal Tiger, mangroves), Buxa Tiger Reserve"
+      },
+      {
+        "label": "Rivers",
+        "text": "Hooghly River, Teesta River"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Kalimpong monasteries, Bishnupur terracotta temples, Mirik lake town"
+      },
+      {
+        "label": "Stay",
+        "text": "Kolkata heritage hotels, Darjeeling tea-estate bungalows, Sundarbans houseboats"
+      },
+      {
+        "label": "Food",
+        "text": "Machher Jhol (fish curry), Rosogolla, Kosha Mangsho, Darjeeling tea, Momos in the hills"
+      },
+      {
+        "label": "Travel",
+        "text": "Kolkata (major hub) and Bagdogra (for Darjeeling/Sikkim) airports; Darjeeling Himalayan Railway (toy train)"
+      }
+    ]
+  },
+  {
+    "id": "odisha",
+    "name": "Odisha",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Feb"
+      },
+      {
+        "label": "Historical",
+        "text": "Konark Sun Temple (UNESCO), Udayagiri-Khandagiri Caves"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Jagannath Temple (Puri), Lingaraj Temple (Bhubaneswar)"
+      },
+      {
+        "label": "Nature",
+        "text": "Chilika Lake (largest brackish lagoon, migratory birds & dolphins), Simlipal National Park, Bhitarkanika mangroves"
+      },
+      {
+        "label": "Waterfalls",
+        "text": "Duduma Falls, Barehipani & Joranda Falls (Simlipal)"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Ratnagiri-Lalitgiri-Udayagiri Buddhist triangle, Gopalpur-on-Sea"
+      },
+      {
+        "label": "Stay",
+        "text": "Puri beachfront hotels, Bhubaneswar city stays"
+      },
+      {
+        "label": "Food",
+        "text": "Chhena Poda, Dalma, Pakhala Bhata, Puri's Mahaprasad"
+      },
+      {
+        "label": "Travel",
+        "text": "Bhubaneswar Airport main gateway; rail to Puri or Bhubaneswar, then road to Konark"
+      }
+    ]
+  },
+  {
+    "id": "bihar",
+    "name": "Bihar",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Mar"
+      },
+      {
+        "label": "Historical",
+        "text": "Nalanda University ruins (UNESCO), Vikramshila ruins, Patna Sahib"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Bodh Gaya (Mahabodhi Temple, UNESCO — Buddhism's holiest site), Vaishali, Rajgir"
+      },
+      {
+        "label": "Nature",
+        "text": "Valmiki Tiger Reserve"
+      },
+      {
+        "label": "Rivers",
+        "text": "Ganges (Patna ghats), Sone River"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Kesaria Stupa , Gurpa Peak"
+      },
+      {
+        "label": "Stay",
+        "text": "Bodh Gaya monastery guesthouses, Patna city hotels"
+      },
+      {
+        "label": "Food",
+        "text": "Litti Chokha, Sattu Paratha, Thekua, Khaja"
+      },
+      {
+        "label": "Travel",
+        "text": "Patna and Gaya (near Bodh Gaya) airports; strong rail network"
+      }
+    ]
+  },
+  {
+    "id": "jharkhand",
+    "name": "Jharkhand",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Mar"
+      },
+      {
+        "label": "Historical",
+        "text": "Palamu Fort ruins"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Baidyanath Jyotirlinga (Deoghar), Parasnath Hill (Jain pilgrimage)"
+      },
+      {
+        "label": "Nature",
+        "text": "Betla National Park, Hazaribagh Wildlife Sanctuary"
+      },
+      {
+        "label": "Waterfalls",
+        "text": "Hundru Falls, Dassam Falls, Jonha Falls"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Netarhat (\"Queen of Chotanagpur\" hill town), Patratu Valley"
+      },
+      {
+        "label": "Stay",
+        "text": "Ranchi & Deoghar hotels, Netarhat forest lodges"
+      },
+      {
+        "label": "Food",
+        "text": "Litti Chokha, Dhuska, Rugra (wild mushroom), Handia"
+      },
+      {
+        "label": "Travel",
+        "text": "Ranchi (Birsa Munda) Airport; road trips needed for waterfalls/hill areas"
+      }
+    ]
+  },
+  {
+    "id": "assam",
+    "name": "Assam",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Apr (avoid monsoon flooding Jun–Sep)"
+      },
+      {
+        "label": "Historical",
+        "text": "Rang Ghar & Talatal Ghar (Ahom-era Sivasagar)"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Kamakhya Temple (Guwahati), Umananda Temple"
+      },
+      {
+        "label": "Nature",
+        "text": "Kaziranga National Park (one-horned rhino, UNESCO), Manas National Park, Majuli Island (largest river island)"
+      },
+      {
+        "label": "Rivers",
+        "text": "Brahmaputra River (cruises from Guwahati)"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Majuli's satras (monasteries), Sivasagar tea gardens"
+      },
+      {
+        "label": "Stay",
+        "text": "Kaziranga forest resorts, Guwahati city hotels, Majuli homestays"
+      },
+      {
+        "label": "Food",
+        "text": "Assam Tea, Masor Tenga (fish curry), Pitha, Khar"
+      },
+      {
+        "label": "Travel",
+        "text": "Guwahati (LGBI) main NE hub airport; rail links to major cities"
+      }
+    ]
+  },
+  {
+    "id": "sikkim",
+    "name": "Sikkim",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Mar–Jun & Oct–Dec; roads to high passes shut in heavy winter"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Rumtek Monastery, Pemayangtse Monastery, Enchey Monastery"
+      },
+      {
+        "label": "Hill/Mountain",
+        "text": "Gangtok, Pelling, Yumthang Valley (\"Valley of Flowers\"), Nathula Pass"
+      },
+      {
+        "label": "Nature",
+        "text": "Khangchendzonga National Park (UNESCO), Kanchenjunga viewpoints"
+      },
+      {
+        "label": "Lakes",
+        "text": "Tsomgo (Changu) Lake, Gurudongmar Lake"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Lachung & Lachen villages, Zuluk (Silk Route viewpoint)"
+      },
+      {
+        "label": "Stay",
+        "text": "Gangtok hotels, Pelling mountain-view resorts, Lachung homestays"
+      },
+      {
+        "label": "Food",
+        "text": "Momos, Thukpa, Gundruk, Sel Roti"
+      },
+      {
+        "label": "Travel",
+        "text": "Pakyong Airport (Gangtok) or fly to Bagdogra then road"
+      }
+    ]
+  },
+  {
+    "id": "meghalaya",
+    "name": "Meghalaya",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–May (monsoon Jun-Sep is extreme — Cherrapunji/Mawsynram are among the wettest places on Earth, though scenic)"
+      },
+      {
+        "label": "Culture",
+        "text": "Living Root Bridges (Nongriat)"
+      },
+      {
+        "label": "Nature",
+        "text": "Mawlynnong (\"cleanest village in Asia\"), Balpakram National Park"
+      },
+      {
+        "label": "Waterfalls/Caves",
+        "text": "Nohkalikai Falls, Seven Sisters Falls, Mawsmai & Krem Mawmluh Caves"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Dawki (crystal-clear Umngot River), Laitlum Canyons"
+      },
+      {
+        "label": "Stay",
+        "text": "Shillong hotels, Cherrapunji eco-cottages, Nongriat homestays (for root bridge treks)"
+      },
+      {
+        "label": "Food",
+        "text": "Jadoh, Tungrymbai, Pork with bamboo shoot"
+      },
+      {
+        "label": "Travel",
+        "text": "Shillong Airport (limited flights) or Guwahati then road (~3 hrs)"
+      }
+    ]
+  },
+  {
+    "id": "arunachal-pradesh",
+    "name": "Arunachal Pradesh",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Apr"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Tawang Monastery (largest in India)"
+      },
+      {
+        "label": "Nature",
+        "text": "Sela Pass, Ziro Valley (Apatani tribal culture, UNESCO tentative), Namdapha National Park"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Mechuka Valley, Dirang"
+      },
+      {
+        "label": "Stay",
+        "text": "Tawang & Ziro guesthouses/homestays"
+      },
+      {
+        "label": "Food",
+        "text": "Thukpa, Bamboo shoot dishes, Apong (rice beer)"
+      },
+      {
+        "label": "Travel",
+        "text": "Inner Line Permit mandatory for all visitors; fly to Guwahati/Dibrugarh then long road journeys"
+      }
+    ]
+  },
+  {
+    "id": "other-northeast-states-manipur-mizoram-tripura-nagaland-brief",
+    "name": "Other Northeast states (Manipur, Mizoram, Tripura, Nagaland) — brief",
+    "sections": [
+      {
+        "label": "Manipur",
+        "text": "Loktak Lake (floating islands/Keibul Lamjao park), Imphal war cemeteries"
+      },
+      {
+        "label": "Nagaland",
+        "text": "Hornbill Festival (Dec, Kohima), Dzükou Valley trek"
+      },
+      {
+        "label": "Mizoram",
+        "text": "Reiek hills, Vantawng Falls"
+      },
+      {
+        "label": "Tripura",
+        "text": "Ujjayanta Palace, Neermahal (lake palace)"
+      }
+    ]
+  },
+  {
+    "id": "karnataka",
+    "name": "Karnataka",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Feb (coast/plains); monsoon good for Western Ghats waterfalls"
+      },
+      {
+        "label": "Historical",
+        "text": "Hampi (UNESCO, Vijayanagara ruins), Mysore Palace, Badami-Aihole-Pattadakal cave temples"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Gomateshwara Shravanabelagola, Murudeshwar, Udupi Krishna Temple, ISKCON Bangalore"
+      },
+      {
+        "label": "Hill Stations",
+        "text": "Coorg (Madikeri), Chikmagalur, Kemmangundi"
+      },
+      {
+        "label": "Nature",
+        "text": "Bandipur & Nagarhole National Parks, Western Ghats coffee estates"
+      },
+      {
+        "label": "Rivers/Falls/Dams",
+        "text": "Jog Falls, Kaveri River, Krishna Raja Sagar (KRS) Dam & Brindavan Gardens"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Gokarna (quiet beach town), Chikmagalur's Mullayanagiri peak, Bandipur wildlife visits"
+      },
+      {
+        "label": "Stay",
+        "text": "Coorg homestay/plantation stays, Hampi guesthouses, Bengaluru full spectrum"
+      },
+      {
+        "label": "Food",
+        "text": "Mysore Masala Dosa, Bisi Bele Bath, Coorgi Pandi Curry, Filter coffee"
+      },
+      {
+        "label": "Travel",
+        "text": "Bengaluru (Kempegowda) major hub airport; Mysuru & Mangaluru airports; good rail/road network"
+      }
+    ]
+  },
+  {
+    "id": "kerala",
+    "name": "Kerala",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Sep–Mar (post-monsoon greenery); monsoon (Jun–Aug) is peak for Ayurveda tourism"
+      },
+      {
+        "label": "Historical",
+        "text": "Fort Kochi (Dutch/Portuguese heritage)"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Sabarimala Ayyappa Temple, Guruvayur Temple, Padmanabhaswamy Temple"
+      },
+      {
+        "label": "Hill Stations",
+        "text": "Munnar (tea gardens), Wayanad, Thekkady"
+      },
+      {
+        "label": "Nature",
+        "text": "Periyar Tiger Reserve, Backwaters (Alleppey/Kumarakom houseboats), Silent Valley National Park"
+      },
+      {
+        "label": "Rivers/Water",
+        "text": "Periyar River, Vembanad Lake, Athirappilly Falls"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Vagamon meadows, Bekal Fort beach, Varkala cliffside beach"
+      },
+      {
+        "label": "Stay",
+        "text": "Alleppey houseboats, Munnar tea-estate resorts, Kochi heritage homestays, Ayurveda retreat centers"
+      },
+      {
+        "label": "Food",
+        "text": "Kerala Sadya (banana-leaf thali), Appam with stew, Malabar Biryani, Fish Moilee"
+      },
+      {
+        "label": "Travel",
+        "text": "Kochi, Trivandrum, Calicut airports; excellent coastal rail line; houseboat backwater routes are a destination in themselves"
+      }
+    ]
+  },
+  {
+    "id": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Nov–Feb (plains); Apr–Jun for Ooty/Kodaikanal hills"
+      },
+      {
+        "label": "Historical",
+        "text": "Meenakshi Temple (Madurai), Brihadeeswarar Temple (Thanjavur, UNESCO), Mahabalipuram Shore Temple (UNESCO), Chettinad mansions"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Rameswaram (Ramanathaswamy Temple), Tirupati border pilgrim route, Velankanni Church, Palani Murugan Temple"
+      },
+      {
+        "label": "Hill Stations",
+        "text": "Ooty, Kodaikanal, Yercaud, Coonoor (Nilgiri toy train, UNESCO)"
+      },
+      {
+        "label": "Nature",
+        "text": "Mudumalai & Anamalai Tiger Reserves, Western Ghats trails"
+      },
+      {
+        "label": "Rivers/Dams",
+        "text": "Kaveri River, Mettur Dam, Courtallam Falls"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Chettinad villages, Kanyakumari (southernmost tip, sunrise/sunset over three seas), Hogenakkal Falls"
+      },
+      {
+        "label": "Stay",
+        "text": "Ooty colonial cottages, Chennai city hotels, Madurai heritage stays"
+      },
+      {
+        "label": "Food",
+        "text": "Chettinad Chicken, Idli-Sambar, Filter coffee, Pongal, Kothu Parotta"
+      },
+      {
+        "label": "Travel",
+        "text": "Chennai (major hub), Madurai, Coimbatore airports; Nilgiri Mountain Railway toy train to Ooty"
+      }
+    ]
+  },
+  {
+    "id": "andhra-pradesh",
+    "name": "Andhra Pradesh",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Mar"
+      },
+      {
+        "label": "Historical",
+        "text": "Amaravati Buddhist stupa remains, Undavalli Caves"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Tirumala Venkateswara Temple (Tirupati, one of the world's most-visited shrines), Srisailam Mallikarjuna Jyotirlinga, Simhachalam Temple"
+      },
+      {
+        "label": "Hill Stations",
+        "text": "Araku Valley, Horsley Hills"
+      },
+      {
+        "label": "Nature",
+        "text": "Coringa Wildlife Sanctuary, Nelapattu Bird Sanctuary"
+      },
+      {
+        "label": "Rivers/Dams",
+        "text": "Krishna & Godavari rivers, Srisailam Dam, Papikondalu river-gorge cruise"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Lambasingi (\"Kashmir of Andhra,\" frost in winter), Borra Caves (near Araku)"
+      },
+      {
+        "label": "Stay",
+        "text": "Tirupati pilgrim lodges (TTD guesthouses), Visakhapatnam beach hotels, Araku Valley resorts"
+      },
+      {
+        "label": "Food",
+        "text": "Andhra Meals (extra spicy), Gongura Pachadi, Pesarattu, Hyderabadi-adjacent Biryani in border areas"
+      },
+      {
+        "label": "Travel",
+        "text": "Visakhapatnam & Tirupati airports; Araku reached via scenic train through Eastern Ghats from Visakhapatnam"
+      }
+    ]
+  },
+  {
+    "id": "telangana",
+    "name": "Telangana",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Feb"
+      },
+      {
+        "label": "Historical",
+        "text": "Golconda Fort, Charminar, Qutb Shahi Tombs, Warangal Fort & Thousand Pillar Temple"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Bhadrachalam Temple, Yadagirigutta (Lakshmi Narasimha), Mecca Masjid"
+      },
+      {
+        "label": "Nature",
+        "text": "Kawal Tiger Reserve, Amrabad Tiger Reserve"
+      },
+      {
+        "label": "Rivers/Dams/Falls",
+        "text": "Godavari River, Nagarjuna Sagar Dam, Bogatha Waterfalls"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Laknavaram Lake, Medak Cathedral"
+      },
+      {
+        "label": "Stay",
+        "text": "Hyderabad full spectrum (from heritage to luxury), Nagarjuna Sagar resorts"
+      },
+      {
+        "label": "Food",
+        "text": "Hyderabadi Biryani, Haleem, Irani Chai, Qubani ka Meetha"
+      },
+      {
+        "label": "Travel",
+        "text": "Hyderabad (Rajiv Gandhi Intl) major hub airport; well-connected by rail to all regions"
+      }
+    ]
+  },
+  {
+    "id": "andaman-nicobar-islands",
+    "name": "Andaman & Nicobar Islands",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–May (avoid monsoon Jun–Sep)"
+      },
+      {
+        "label": "Historical",
+        "text": "Cellular Jail (Port Blair)"
+      },
+      {
+        "label": "Nature",
+        "text": "Mahatma Gandhi Marine National Park, coral reefs"
+      },
+      {
+        "label": "Beaches",
+        "text": "Radhanagar Beach (Havelock/Swaraj Dweep), Elephant Beach, Neil Island"
+      },
+      {
+        "label": "Hidden gems",
+        "text": "Ross Island, Baratang limestone caves"
+      },
+      {
+        "label": "Stay",
+        "text": "Havelock beach resorts, Port Blair city hotels"
+      },
+      {
+        "label": "Food",
+        "text": "Fresh seafood, coconut-based curries"
+      },
+      {
+        "label": "Travel",
+        "text": "Fly to Port Blair (Veer Savarkar Airport); inter-island ferries to Havelock/Neil"
+      }
+    ]
+  },
+  {
+    "id": "puducherry",
+    "name": "Puducherry",
+    "sections": [
+      {
+        "label": "Best season",
+        "text": "Oct–Mar"
+      },
+      {
+        "label": "Historical",
+        "text": "French Quarter, Aurobindo Ashram"
+      },
+      {
+        "label": "Spiritual",
+        "text": "Auroville (Matrimandir), Manakula Vinayagar Temple"
+      },
+      {
+        "label": "Beaches",
+        "text": "Promenade Beach, Paradise Beach"
+      },
+      {
+        "label": "Stay",
+        "text": "French-colonial boutique hotels, beach resorts"
+      },
+      {
+        "label": "Food",
+        "text": "French-Tamil fusion cuisine, Café culture"
+      },
+      {
+        "label": "Travel",
+        "text": "Nearest major airport Chennai (~3 hrs road); well-connected by rail to Chennai"
+      }
+    ]
+  }
+]

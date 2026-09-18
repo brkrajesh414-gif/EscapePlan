@@ -36,8 +36,8 @@ android {
     applicationId = "com.aistudio.tripplanner.kvxwq"
     minSdk = 24
     targetSdk = 36
-    versionCode = 6
-    versionName = "2.3"
+    versionCode = 7
+    versionName = "2.4"
     buildConfigField("String", "GOOGLE_WEB_CLIENT_ID", quoted(configString("GOOGLE_WEB_CLIENT_ID")))
     buildConfigField("String", "MAPS_ANDROID_KEY", quoted(configString("MAPS_ANDROID_KEY")))
     manifestPlaceholders["mapsApiKey"] = configString("MAPS_ANDROID_KEY")

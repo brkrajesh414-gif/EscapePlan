@@ -20,11 +20,14 @@ import com.example.data.model.PlaceCatalogEntry
 import com.example.data.repository.HiddenPlacesRepository
 import com.example.data.repository.PlaceCatalogRepository
 import com.example.data.engine.PlaceSearch
+import com.example.data.repository.RegionalGuide
+import com.example.data.repository.loadRegionalGuides
 
 private data class ExploreEntry(
     val key: String, val name: String, val area: String, val summary: String,
     val terms: String, val categories: List<String>, val kind: String, val id: String,
-    val catalog: PlaceCatalogEntry? = null
+    val catalog: PlaceCatalogEntry? = null,
+    val regional: RegionalGuide? = null
 )
 
 @Composable
@@ -42,12 +45,14 @@ fun UnifiedExploreScreen(
     var loading by remember { mutableStateOf(true) }
     var error by remember { mutableStateOf<String?>(null) }
     var reload by remember { mutableIntStateOf(0) }
+    var regionalDetail by remember { mutableStateOf<RegionalGuide?>(null) }
     var detail by remember { mutableStateOf<PlaceCatalogEntry?>(null) }
     LaunchedEffect(reload) {
         loading = true
         val repository = PlaceCatalogRepository(context)
         val catalog = repository.load()
         val hidden = HiddenPlacesRepository(context).load()
+        val regions = loadRegionalGuides(context)
         val rich = DestinationsDataSource.destinations.map { destination ->
             val aliases = catalog.getOrDefault(emptyList()).filter { repository.existingGuide(it)?.id == destination.id }
             ExploreEntry("guide:${destination.id}", destination.name, destination.state, destination.tagline,
@@ -67,8 +72,14 @@ fun UnifiedExploreScreen(
                 "${it.name} ${it.aliases.joinToString(" ")} ${it.state.orEmpty()} ${it.categories.joinToString(" ")}",
                 it.categories, "catalog", it.id, it)
         }
-        entries = (rich + hiddenEntries + basic).sortedBy { it.name }
-        error = if (catalog.isFailure || hidden.isFailure) "Some guides could not be loaded. You can still browse the available places." else null
+        val regionalEntries = regions.getOrDefault(emptyList()).map {
+            ExploreEntry("region:${it.id}", it.name, "Regional guide",
+                "Seasons, places, stays, food and transport from your supplied travel notes.",
+                it.name + " " + it.sections.joinToString(" ") { section -> section.text },
+                listOf("Regional guides"), "region", it.id, regional = it)
+        }
+        entries = (rich + hiddenEntries + basic + regionalEntries).sortedBy { it.name }
+        error = if (catalog.isFailure || hidden.isFailure || regions.isFailure) "Some guides could not be loaded. You can still browse the available places." else null
         loading = false
     }
     fun openMaps(name: String) {
@@ -118,9 +129,10 @@ fun UnifiedExploreScreen(
                             when (entry.kind) {
                                 "guide" -> onDestination(entry.id)
                                 "hidden" -> onHidden(entry.id)
+                                "region" -> regionalDetail = entry.regional
                                 else -> detail = entry.catalog
                             }
-                        }) { Text(if (entry.kind == "catalog") "Travel information" else "View guide") }
+                        }) { Text(when (entry.kind) { "catalog" -> "Travel information"; "region" -> "View regional guide"; else -> "View guide" }) }
                     }
                 }
             }
@@ -148,4 +160,20 @@ fun UnifiedExploreScreen(
             }
         }, confirmButton = { TextButton(onClick = { detail = null }) { Text("Close") } })
     }
+    regionalDetail?.let { guide ->
+        AlertDialog(onDismissRequest = { regionalDetail = null }, title = { Text(guide.name) },
+            text = {
+                Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Text("Regional planning notes supplied for this app. These are not live opening hours, availability or individual hotel listings.", style = MaterialTheme.typography.bodySmall)
+                    guide.sections.forEach { section ->
+                        Text(section.label, style = MaterialTheme.typography.titleMedium)
+                        Text(section.text)
+                    }
+                    Text("Check current access, weather, transport and entry requirements before travelling.", style = MaterialTheme.typography.bodySmall)
+                    TextButton(onClick = { openMaps(guide.name + " India") }) { Text("Open regional map") }
+                }
+            },
+            confirmButton = { TextButton(onClick = { regionalDetail = null }) { Text("Close") } })
+    }
+
 }
