@@ -13,6 +13,7 @@ import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import com.example.data.datasource.DestinationsDataSource
 import com.example.data.model.PlaceCatalogEntry
@@ -101,7 +102,7 @@ fun UnifiedExploreScreen(
         if (loading) LinearProgressIndicator(Modifier.fillMaxWidth())
         error?.let { Text(it); TextButton(onClick = { reload++ }) { Text("Reload guides") } }
         Text("${results.size} places", style = MaterialTheme.typography.labelMedium)
-        LazyColumn(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(10.dp), contentPadding = PaddingValues(vertical = 12.dp)) {
+        LazyColumn(Modifier.weight(1f).testTag("search_results"), verticalArrangement = Arrangement.spacedBy(10.dp), contentPadding = PaddingValues(vertical = 12.dp)) {
             if (!loading && results.isEmpty()) item {
                 Text("No saved guide matches this search. Try a shorter name or clear the category.")
                 TextButton(onClick = { category = null; query = "" }) { Text("Show all places") }

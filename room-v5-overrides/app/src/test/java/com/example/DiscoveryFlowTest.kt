@@ -31,7 +31,8 @@ class DiscoveryFlowTest {
         compose.onNodeWithText("Close").performClick()
         compose.onNodeWithText("Clear").performClick()
         compose.onNodeWithText("Place, state or interest").performTextInput("Kashi")
-        compose.waitUntil(15000) { compose.onAllNodesWithText("Varanasi").fetchSemanticsNodes().isNotEmpty() }
+        compose.onNodeWithTag("search_results").performScrollToNode(hasText("Varanasi"))
+        compose.onNodeWithText("Varanasi").assertExists()
     }
 
     @Test fun guestCanContinueWhenFirebaseMissing() {
