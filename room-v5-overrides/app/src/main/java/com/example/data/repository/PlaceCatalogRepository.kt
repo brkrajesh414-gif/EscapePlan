@@ -51,10 +51,11 @@ class PlaceCatalogRepository(context: Context) {
     fun existingGuide(entry: PlaceCatalogEntry): Destination? {
         val names = (entry.aliases + entry.name).map(::normalized).toSet()
         val matches = DestinationsDataSource.destinations.filter {
-            normalized(it.name) in names || normalized(it.id) in names
+            listOf(it.name, it.name.substringBefore("("), it.name.substringAfter("(", "").substringBefore(")"), it.id)
+                .filter { name -> name.isNotBlank() }.any { name -> normalized(name) in names }
         }
         return matches.singleOrNull()
     }
 
-    private fun normalized(value: String): String = value.trim().lowercase(Locale.ROOT)
+    private fun normalized(value: String): String = com.example.data.engine.PlaceSearch.normalized(value)
 }

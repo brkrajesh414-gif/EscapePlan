@@ -39,7 +39,8 @@ class MultiStateTravelPlanEngineTest {
         assertTrue("Coorg must have stays", coorg.stays.isNotEmpty())
         assertTrue("Coorg must have 12 months season data", coorg.seasons.size == 12)
 
-        val hampi = karnatakaDestinations.find { it.id == "karnataka-hampi" }
+        val hampi = DestinationsDataSource.getDestinationById("karnataka-hampi")
+        assertTrue("Legacy Hampi ID must resolve to a visible destination", hampi in karnatakaDestinations)
         assertNotNull("Hampi destination must exist", hampi)
         assertEquals("Hampi state must be Karnataka", "Karnataka", hampi!!.state)
     }
