@@ -38,7 +38,8 @@ class DiscoveryFlowTest {
     @Test fun attractionSearchOpensRegionalNotes() {
         compose.setContent { MyApplicationTheme { UnifiedExploreScreen({}, {}, {}, {}) } }
         compose.onNodeWithText("Place, state or interest").performTextInput("Nohkalikai")
-        compose.waitUntil(15000) { compose.onAllNodesWithText("View regional guide").fetchSemanticsNodes().isNotEmpty() }
+        compose.waitUntil(15000) { compose.onAllNodesWithTag("search_loading").fetchSemanticsNodes().isEmpty() }
+        compose.onNodeWithTag("search_results").performScrollToNode(hasText("View regional guide"))
         compose.onNodeWithText("View regional guide").performClick()
         compose.onNodeWithText("Waterfalls/Caves").assertExists()
     }

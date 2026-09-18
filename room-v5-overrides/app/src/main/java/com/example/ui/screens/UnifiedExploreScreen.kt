@@ -110,7 +110,7 @@ fun UnifiedExploreScreen(
             }
         }
         TextButton(onClick = { budgetMode = true }) { Text("Budget & trip filters") }
-        if (loading) LinearProgressIndicator(Modifier.fillMaxWidth())
+        if (loading) LinearProgressIndicator(Modifier.fillMaxWidth().testTag("search_loading"))
         error?.let { Text(it); TextButton(onClick = { reload++ }) { Text("Reload guides") } }
         Text("${results.size} places", style = MaterialTheme.typography.labelMedium)
         LazyColumn(Modifier.weight(1f).testTag("search_results"), verticalArrangement = Arrangement.spacedBy(10.dp), contentPadding = PaddingValues(vertical = 12.dp)) {
